@@ -8,6 +8,7 @@ h1 {
 
 h2 {
   text-align: center;
+  color: black;
 }
 
 header {
@@ -33,6 +34,7 @@ header {
   grid-template-columns: auto;
   grid-template-rows: 80px 350px 100px;
   grid-gap: 1em;
+  background-color: white;
 }
 
 img {
@@ -50,6 +52,7 @@ img {
 .home-list-area {
     grid-column: 1 / 2;
     grid-row: 2 / 3;
+    color: #000000;
 }
 
 .home-list li {
