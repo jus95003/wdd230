@@ -17,7 +17,7 @@ header {
   background-color: darkred;
   padding-left: 40px;
   border: 5px solid white;
-  padding-top: 30px;
+  margin-top: 30px;
 }
 
 #content {
@@ -34,7 +34,7 @@ header {
 
 img {
   max-width: 100%;
-  border: 2px solid black;
+  border: 3px solid black;
 }
 
 .home-headline {
@@ -43,14 +43,15 @@ img {
   line-height: 80px;
   height: 80px;
   border: 5px solid white;
+  background-color: darkred;
 }
 
-.home-list {
+.home-list li {
     grid-column: 1 / 2;
     grid-row: 2 / 3;
     font-size: 1em;
-    padding-top: 1em;
-    padding-bottom: 1em;
+    padding-top: 10px;
+    padding-bottom: 10px;
     border: 5px solid white;
   }
 
@@ -81,6 +82,7 @@ footer {
   align-items: center;
   margin-top: 20px;
   border: 5px solid white;
+  background-color: darkred;
 }
 
 .footer-paragraph {
