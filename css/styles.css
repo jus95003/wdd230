@@ -6,9 +6,13 @@ h1 {
   color: white;
 }
 
+h2 {
+  text-align: center;
+}
+
 header {
   display: grid;
-  grid-template-columns: 240px auto;
+  grid-template-columns: 211px auto;
   grid-template-rows: 280px;
   align-items: center;
   color: white;
@@ -27,7 +31,7 @@ header {
 .home-grid {
   display: grid;
   grid-template-columns: auto;
-  grid-template-rows: 80px 400px 100px;
+  grid-template-rows: 80px 450px 100px;
   grid-gap: 1em;
 }
 
@@ -45,15 +49,15 @@ img {
 }
 
 .home-list li {
-    grid-column: 1 / 2;
-    grid-row: 2 / 3;
-    font-size: 1em;
-    padding-top: 10px;
-    padding-bottom: 10px;
-  }
+  grid-column: 1 / 2;
+  grid-row: 2 / 3;
+  font-size: 1em;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
 
 .home-list {
-    border: 5px solid white;
+  border: 5px solid white;
 }
 
 .home-paragraph {
