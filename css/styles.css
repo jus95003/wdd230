@@ -31,7 +31,7 @@ header {
 .home-grid {
   display: grid;
   grid-template-columns: auto;
-  grid-template-rows: 80px 450px 100px;
+  grid-template-rows: 80px 400px 100px;
   grid-gap: 1em;
 }
 
@@ -45,7 +45,6 @@ img {
   grid-row: 1 / 2;
   line-height: 80px;
   height: 80px;
-  border: 5px solid white;
 }
 
 .home-list li {
@@ -54,10 +53,6 @@ img {
   font-size: 1em;
   padding-top: 5px;
   padding-bottom: 5px;
-}
-
-.home-list {
-  border: 5px solid white;
 }
 
 .home-paragraph {
