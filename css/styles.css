@@ -81,7 +81,7 @@ footer {
   grid-template-columns: auto;
   grid-template-rows: 50px 50px;
   align-items: center;
-  margin-top: 20px;
+  margin-bottom: 20px;
   border: 5px solid white;
   background-color: darkred;
 }
