@@ -32,7 +32,7 @@ header {
 .home-grid {
   display: grid;
   grid-template-columns: auto;
-  grid-template-rows: 80px 400px;
+  grid-template-rows: 80px 380px;
   background-color: white;
 }
 
@@ -59,7 +59,7 @@ img {
 
 .home-list {
   margin-top: 0px;
-  margin-bottom: 10px;
+  margin-bottom: 0px;
 }
 
 .home-list li {
