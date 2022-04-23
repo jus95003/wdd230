@@ -57,12 +57,15 @@ img {
   padding-left: 20px;
 }
 
+.home-list {
+  margin-top: 0px;
+  margin-bottom: 10px;
+}
+
 .home-list li {
   font-size: 1em;
   padding-top: 5px;
   padding-bottom: 5px;
-  margin-top: 0px;
-  margin-bottom: 10px;
 }
 
 .home-paragraph {
