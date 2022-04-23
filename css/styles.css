@@ -32,7 +32,7 @@ header {
 .home-grid {
   display: grid;
   grid-template-columns: auto;
-  grid-template-rows: 80px 370px;
+  grid-template-rows: 80px 360px;
   background-color: white;
 }
 
@@ -74,6 +74,7 @@ img {
   padding-bottom: 1em;
   text-align: left;
   font-size: 1em;
+  margin-bottom: 0px;
 }
 
 body {
