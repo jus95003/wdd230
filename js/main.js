@@ -5,6 +5,6 @@ document.getElementById("currentyear").textContent = year;
 
 let lastMod = new Date(document.lastModified);
 
-let customLastMod = lastMod.getMonth() + "/" + lastMod.getDay() + "/" + lastMod.getFullYear() + " " + lastMod.getTime();
+let customLastMod = (lastMod.getMonth()+1) + "/" + lastMod.getDate() + "/" + lastMod.getFullYear() + " " + lastMod.getHours() + ":" + lastMod.getMinutes() + ":" + lastMod.getSeconds();
 
 document.getElementById("last-modified").textContent = customLastMod;
