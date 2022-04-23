@@ -33,7 +33,6 @@ header {
   display: grid;
   grid-template-columns: auto;
   grid-template-rows: 80px 400px;
-  grid-gap: 1em;
   background-color: white;
 }
 
@@ -54,7 +53,7 @@ img {
     grid-column: 1 / 2;
     grid-row: 2 / 3;
     color: #000000;
-    padding-left: 40px;
+    padding-left: 20px;
 }
 
 .home-list li {
