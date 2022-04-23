@@ -48,16 +48,14 @@ img {
   line-height: 80px;
   height: 80px;
   margin: 0px;
+  bor
 }
 
-.home-list-area {
+.home-list {
   grid-column: 1 / 2;
   grid-row: 2 / 3;
   color: #000000;
   padding-left: 20px;
-}
-
-.home-list {
   margin-top: 0px;
   margin-bottom: 0px;
 }
@@ -66,15 +64,6 @@ img {
   font-size: 1em;
   padding-top: 5px;
   padding-bottom: 5px;
-}
-
-.home-paragraph {
-  padding-left: 2em;
-  padding-right: 1em;
-  padding-bottom: 1em;
-  text-align: left;
-  font-size: 1em;
-  margin-bottom: 0px;
 }
 
 body {
