@@ -51,6 +51,7 @@ img {
   margin: 0px;
   margin-left: 40px;
   margin-right: 40px;
+  border-bottom: 3px solid black;
 }
 
 .home-list {
