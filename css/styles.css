@@ -49,12 +49,14 @@ img {
   line-height: 80px;
   height: 80px;
   margin: 0px;
+  margin-left: 40px;
+  margin-right: 40px;
 }
 
 .home-list {
   grid-column: 1 / 2;
   grid-row: 2 / 3;
-  padding-left: 60px;
+  padding-left: 50px;
   margin-top: 0px;
   margin-bottom: 0px;
 }
