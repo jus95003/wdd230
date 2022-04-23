@@ -1,10 +1,24 @@
-let d = new Date();
-let year = d.getFullYear();
+document.addEventListener("DOMContentLoaded", function () {
+  let yearSpan = document.querySelector("#currentyear");
 
-document.querySelector("#currentyear").textContent = year;
+  let currentYear = new Date().getFullYear();
 
-let lastMod = new Date(document.lastModified);
+  yearSpan.textContent = currentYear;
 
-let customLastMod = (lastMod.getMonth()+1) + "/" + lastMod.getDate() + "/" + lastMod.getFullYear() + " " + lastMod.getHours() + ":" + lastMod.getMinutes() + ":" + lastMod.getSeconds();
+  let lastMod = new Date(document.lastModified);
 
-document.getElementById("last-modified").textContent = customLastMod;
+  let customLastMod =
+    (lastMod.getMonth() + 1) +
+    "/" +
+    lastMod.getDate() +
+    "/" +
+    lastMod.getFullYear() +
+    " " +
+    lastMod.getHours() +
+    ":" +
+    lastMod.getMinutes() +
+    ":" +
+    lastMod.getSeconds();
+
+  document.getElementById("last-modified").textContent = customLastMod;
+});
