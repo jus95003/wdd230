@@ -49,13 +49,13 @@ img {
   line-height: 80px;
   height: 80px;
   margin: 0px;
-  bor
+  border-bottom: 2px solid black;
 }
 
 .home-list {
   grid-column: 1 / 2;
   grid-row: 2 / 3;
-  padding-left: 50px;
+  padding-left: 60px;
   margin-top: 0px;
   margin-bottom: 0px;
 }
