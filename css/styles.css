@@ -3,7 +3,6 @@
 h1 {
   font-family: "Garamond", serif;
   text-align: center;
-  color: white;
 }
 
 h2 {
@@ -48,7 +47,7 @@ img {
   grid-row: 1 / 2;
   line-height: 80px;
   height: 80px;
-  font-size: 1.2em;
+  font-size: 2em;
   margin-top: 0px;
   margin-bottom: 0px;
   margin-left: 30px;
