@@ -32,7 +32,7 @@ header {
 .home-grid {
   display: grid;
   grid-template-columns: auto;
-  grid-template-rows: 80px 350px;
+  grid-template-rows: 80px 340px;
   color: #000000;
   background-color: white;
 }
@@ -88,6 +88,7 @@ footer {
   grid-template-columns: auto;
   grid-template-rows: 40px 40px;
   align-items: center;
+  margin-top: 30px;
   margin-bottom: 20px;
   border: 5px solid white;
   background-color: darkred;
