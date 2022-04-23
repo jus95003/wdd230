@@ -13,7 +13,7 @@ document.addEventListener("DOMContentLoaded", function () {
     lastMod.getDate().toString().padStart(2, '0') +
     "/" +
     lastMod.getFullYear() +
-    " " +
+    "   " +
     lastMod.getHours().toString().padStart(2, '0') +
     ":" +
     lastMod.getMinutes().toString().padStart(2, '0') +
