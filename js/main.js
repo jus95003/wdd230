@@ -10,15 +10,15 @@ document.addEventListener("DOMContentLoaded", function () {
   let customLastMod =
     (lastMod.getMonth() + 1) +
     "/" +
-    lastMod.getDate() +
+    lastMod.getDate().toString().padStart(2, '0') +
     "/" +
     lastMod.getFullYear() +
     " " +
-    lastMod.getHours() +
+    lastMod.getHours().toString().padStart(2, '0') +
     ":" +
-    lastMod.getMinutes() +
+    lastMod.getMinutes().toString().padStart(2, '0') +
     ":" +
-    lastMod.getSeconds();
+    lastMod.getSeconds().toString().padStart(2, '0');
 
   document.getElementById("last-modified").textContent = customLastMod;
 });
