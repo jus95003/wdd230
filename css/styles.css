@@ -32,7 +32,7 @@ header {
 .home-grid {
   display: grid;
   grid-template-columns: auto;
-  grid-template-rows: 80px 380px;
+  grid-template-rows: 80px 370px;
   background-color: white;
 }
 
