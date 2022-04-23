@@ -37,6 +37,7 @@ header {
 }
 
 img {
+  width: 200px;
   max-width: 100%;
   border: 3px solid black;
 }
@@ -50,10 +51,10 @@ img {
 }
 
 .home-list-area {
-    grid-column: 1 / 2;
-    grid-row: 2 / 3;
-    color: #000000;
-    padding-left: 20px;
+  grid-column: 1 / 2;
+  grid-row: 2 / 3;
+  color: #000000;
+  padding-left: 20px;
 }
 
 .home-list li {
