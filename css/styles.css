@@ -20,6 +20,7 @@ header {
   background-color: darkred;
   padding: 40px;
   border: 5px solid white;
+  margin: 10px;
 }
 
 .content {
