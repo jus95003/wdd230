@@ -13,17 +13,16 @@ h2 {
 header {
   display: grid;
   grid-template-columns: 211px auto;
-  grid-template-rows: 280px;
   align-items: center;
   color: white;
   font-size: 1.5em;
   background-color: darkred;
-  padding-left: 40px;
+  padding: 40px;
   border: 5px solid white;
   margin-top: 20px;
 }
 
-#content {
+.content {
   max-width: 700px;
   margin: 0 auto;
 }
