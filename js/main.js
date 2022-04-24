@@ -1,4 +1,5 @@
 document.addEventListener("DOMContentLoaded", function () {
+  
   let yearSpan = document.querySelector("#currentyear");
 
   let currentYear = new Date().getFullYear();
