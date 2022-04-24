@@ -31,7 +31,7 @@ header {
 .home-grid {
   display: grid;
   grid-template-columns: auto;
-  grid-template-rows: 80px 370px;
+  grid-template-rows: 80px 390px;
   color: #000000;
   background-color: white;
 }
