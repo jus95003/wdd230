@@ -22,24 +22,27 @@ header {
   margin-top: 5px;
 }
 
+nav {
+  display: grid;
+  grid-template-columns: repeat(5, 20%);
+  justify-content: center;
+}
+
 nav ul {
-  list-style: none;
+  list-style-type: none;
   justify-items: center;
 }
 
 nav a:link { 
   color: white;
-  background-color: darkred;
 }
 
 nav a:visited {
-  color: black;
+  color: darkred;
 }
 
 nav a:hover{
   color: gold;
-  background-color: darkred;
-  padding: 15px 15px;
 }
 
 .content {
