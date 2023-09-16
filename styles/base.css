@@ -23,7 +23,6 @@ header {
 }
 
 nav li {
-  float: left;
   list-style-type: none;
   justify-items: center;
 }
@@ -104,6 +103,7 @@ main {
 footer {
   border: 5px solid white;
   background-color: darkred;
+  justify-items: center;
 }
 
 .footer-paragraph-1,
