@@ -28,7 +28,7 @@ nav {
   justify-content: center;
 }
 
-nav ul {
+nav li {
   grid-column: 1 / 6;
   list-style-type: none;
   justify-items: center;
@@ -92,6 +92,7 @@ img {
 
 .card-list li {
   font-size: 1.1em;
+  list-style-type: none;
   padding-top: 5px;
   padding-bottom: 5px;
 }
