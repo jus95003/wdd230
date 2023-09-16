@@ -22,14 +22,8 @@ header {
   margin-top: 5px;
 }
 
-nav {
-  display: grid;
-  grid-template-columns: repeat(5, 20%);
-  justify-content: center;
-}
-
 nav li {
-  grid-column: 1 / 6;
+  float: left;
   list-style-type: none;
   justify-items: center;
 }
