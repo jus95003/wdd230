@@ -107,7 +107,8 @@ footer {
 }
 
 footer img {
-  width: 127px;
+  max-width: 100%;
+  height: auto;
 }
 
 .footer-paragraph-1,
