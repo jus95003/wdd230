@@ -106,6 +106,10 @@ footer {
   justify-items: center;
 }
 
+footer img {
+  width: 127px;
+}
+
 .footer-paragraph-1,
 .footer-paragraph-2 {
   text-align: center;
