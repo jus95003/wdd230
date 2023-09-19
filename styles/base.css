@@ -93,7 +93,9 @@ nav a:hover{
 }
 
 .card {
-  width: 639px;
+  grid-column: 1 / 2;
+  margin-left: 1rem;
+  margin-right: 1rem;
   justify-items: center;
   border: 2px solid black;
   border-radius: 7px;
