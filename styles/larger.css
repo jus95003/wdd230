@@ -1,12 +1,22 @@
 @media screen and (min-width: 640px) {
 
+    .content {
+        max-width: 1000px;
+        margin: 0 auto;
+      }
+
     main {
         display: grid;
-        grid-template-columns: 1fr 1fr;
+        grid-template-columns: 2fr 1fr;
     }
 
     nav ul {
         display: flex;
+
+    }
+
+    nav a {
+        list-style-type: none;
     }
 
     nav ul li {
