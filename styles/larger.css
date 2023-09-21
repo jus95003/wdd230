@@ -5,6 +5,21 @@
         margin: 0 auto;
       }
 
+      header {
+        display: grid;
+        grid-template-columns: 1fr 2fr;
+        justify-items: center;
+      }
+
+      header img {
+        grid-column: 1 / 2;
+
+      }
+
+      .full-name {
+        grid-column: 2 / 4;
+      }
+
     main {
         display: grid;
         grid-template-columns: 2fr 1fr;
