@@ -24,12 +24,14 @@ header {
 }
 
 header img {
+  grid-column: 1 / 2;
   width: 200px;
   max-width: 100%;
   border: 3px solid black;
 }
 
 .full-name {
+  grid-column: 2 / 4;
   padding-left: 20px;
 }
 
