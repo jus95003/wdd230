@@ -8,16 +8,17 @@
       header {
         display: grid;
         grid-template-columns: 1fr 2fr;
-        justify-content: center;
       }
 
       header img {
         grid-column: 1 / 2;
+        justify-items: right;
 
       }
 
       .full-name {
         grid-column: 2 / 4;
+        justify-items: left;
       }
 
     main {
