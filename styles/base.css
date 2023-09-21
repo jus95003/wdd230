@@ -66,6 +66,7 @@ nav a:visited {
 
 nav a:hover{
   color: gold;
+  text-shadow: 1px 1px 0 #000000, -1px 1px 0 #000000, -1px -1px 0 #000000, 1px -1px 0 #000000;
 }
 
 .content {
