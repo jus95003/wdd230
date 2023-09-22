@@ -1,41 +1,89 @@
 @media screen and (min-width: 640px) {
+  
+  .content {
+    max-width: 1000px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: 305px 70px 482px 162px;
+  }
 
-    .content {
-        max-width: 1000px;
-        margin: 0 auto;
-      }
+  header {
+    grid-column: 1 / 6;
+    grid-row: 1 / 2;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+  }
+  
+  header picture {
+    grid-column: 1 / 3;
+    justify-self: end;
+  }
 
-      header {
-        display: grid;
-        grid-template-columns: 1fr 2fr;
-      }
+  .full-name {
+    grid-column: 3 / 6;
+    justify-self: start;
+    padding: 50px;
+  }
 
-      header img {
-        grid-column: 1 / 2;
-        justify-items: right;
+  nav {
+    grid-column: 1 / 6;
+    grid-row: 2 / 3;
+  }
+  
+  nav ul {
+    display: flex;
+  }
 
-      }
+  nav li {
+    list-style-type: none;
+  }
 
-      .full-name {
-        grid-column: 2 / 4;
-        justify-items: left;
-      }
-
-    main {
-        display: grid;
-        grid-template-columns: 2fr 1fr;
-    }
-
-    nav ul {
-        display: flex;
-
-    }
-
-    nav li {
-        list-style-type: none;
-    }
-
-    nav ul li {
-        flex: 1 1 100%;
-    }
+  nav ul li {
+    flex: 1 1 100%;
+  }
+  
+  main {
+    grid-column: 1 / 6;
+    grid-row: 3 / 4;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: 87px 395px;
+  }
+  
+  .home-headline {
+    grid-column: 1 / 6;
+    grid-row: 1 / 2;
+    padding-left: 12rem;
+    padding-right: 12rem;
+    margin-top: 24px;
+  }
+  
+  .card-box {
+    grid-column: 1 / 6;
+    grid-row: 2 / 3;
+    display: flex;
+    flex-direction: row;
+  }
+  
+  .card {
+    margin-left: 8px;
+    margin-right: 8px;
+  }
+  
+  .card-headline-1 {
+    padding-left: 12rem;
+    padding-right: 12rem;
+  }
+  
+  .card-headline-2 {
+    padding-left: 5rem;
+    padding-right: 5rem;
+  }
+  
+  footer {
+    grid-column: 1 / 6;
+    grid-row: 4 / 5;
+  }
 }
+
