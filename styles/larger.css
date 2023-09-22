@@ -1,4 +1,4 @@
-@media screen and (min-width: 640px) {
+@media screen and (min-width: 551px) {
   
   .content {
     max-width: 1000px;
@@ -13,6 +13,8 @@
     grid-row: 1 / 2;
     display: grid;
     grid-template-columns: repeat(5, 1fr);
+    font-size: 1.5em;
+    margin-top: 5px;
   }
   
   header picture {
@@ -49,6 +51,7 @@
     display: grid;
     grid-template-columns: repeat(5, 1fr);
     grid-template-rows: 87px 395px;
+    justify-items: center;
   }
   
   .home-headline {
@@ -57,6 +60,12 @@
     padding-left: 12rem;
     padding-right: 12rem;
     margin-top: 24px;
+    font-size: 1.8em;
+    margin-bottom: 1rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    padding-bottom: 10px;
+    border-bottom: 3px solid black;
   }
   
   .card-box {

@@ -1,5 +1,11 @@
 @import url("https://fonts.googleapis.com/css?family=Lato");
 
+body {
+  color: white;
+  background-color: black;
+  font-family: "Lato", "Arial", sans-serif;
+}
+
 h1 {
   font-family: "Garamond", serif;
   text-align: center;
@@ -13,26 +19,24 @@ header {
   display: grid;
   grid-template-columns: 1fr 2fr;
   align-items: center;
-  font-size: 1.5em;
   text-shadow: 2px 2px 8px #000000;
   background-color: darkred;
   padding: 40px;
   border: 5px solid white;
   border-top-left-radius: 7px;
   border-top-right-radius: 7px;
-  margin-top: 5px;
 }
 
-header img {
+header picture img {
   grid-column: 1 / 2;
   width: 200px;
   max-width: 100%;
-  border: 3px solid black;
+  border: 2px solid black;
 }
 
 .full-name {
   grid-column: 2 / 4;
-  padding-left: 20px;
+  padding-left: 30px;
 }
 
 nav {
@@ -45,10 +49,13 @@ nav ul {
   margin: 0;
 }
 
+nav li {
+  list-style-type: none;
+}
+
 nav a {
   display: block;
   font-size: 1.5em;
-  list-style-type: none;
   font-family: "Garamond", serif;
   padding: 10px;
   text-align: center;
@@ -63,39 +70,35 @@ nav a:visited {
   color: darkred;
 }
 
-nav a:hover{
+nav a:hover {
   color: gold;
-  text-shadow: 1px 1px 0 #000000, -1px 1px 0 #000000, -1px -1px 0 #000000, 1px -1px 0 #000000;
 }
 
-.content {
-  max-width: 700px;
-  margin: 0 auto;
-}
-
-.home-grid {
+main {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  grid-template-rows: 1fr auto ;
-  color: #000000;
+  color: black;
   background-color: white;
-  justify-items: center;
 }
 
 .home-headline {
   grid-column: 1 / 3;
-  grid-row: 1 / 2;
-  font-size: 1.8em;
-  margin-top: 2rem;
+  font-size: 1.5em;
+  margin-top: 24px;
   margin-bottom: 1rem;
-  padding-left: 4rem;
-  padding-right: 4rem;
+  margin-left: 1rem;
+  margin-right: 1rem;
+  padding-left: 2rem;
+  padding-right: 2rem;
   padding-bottom: 10px;
   border-bottom: 3px solid black;
 }
 
-.card {
+.card-box {
   grid-column: 1 / 3;
+}
+
+.card {
   margin-left: 1rem;
   margin-right: 1rem;
   border: 2px solid black;
@@ -105,7 +108,6 @@ nav a:hover{
 
 .card-headline-1,
 .card-headline-2 {
-  grid-column: 1 / 3;
   line-height: 3rem;
   height: 3rem;
   text-align: center;
@@ -120,7 +122,6 @@ nav a:hover{
 }
 
 .card-list {
-  grid-column: 1 / 3;
   margin-top: 15px;
   margin-bottom: 15px;
   margin-left: 20px;
@@ -140,16 +141,6 @@ nav a:hover{
   font-size: 1.1em;
 }
 
-body {
-  color: white;
-  background-color: #000000;
-  font-family: "Lato", "Arial", sans-serif;
-}
-
-main {
-  background-color: #000000;
-}
-
 footer {
   border: 5px solid white;
   background-color: darkred;
@@ -157,13 +148,11 @@ footer {
   border-bottom-right-radius: 7px;
 }
 
-footer img {
+footer picture img {
   border: 2px solid black;
   display: block;
   margin-left: auto;
   margin-right: auto;
-  width: 64px;
-  height: auto;
 }
 
 .footer-paragraph-1,
@@ -173,13 +162,4 @@ footer img {
   text-shadow: 2px 2px 8px #000000;
   margin-top: 1rem;
   margin-bottom: 1rem;
-}
-
-@media screen and (max-width: 550px) {
-  /* beginning of media query */
-  .home-grid {
-    display: block;
-  }
-
-  /* end of media query */
 }
