@@ -1,0 +1,81 @@
+@import url("https://fonts.googleapis.com/css?family=Lato");
+
+body {
+  font-family: "Lato", "Arial", sans-serif;
+  background-color: black;
+}
+
+h1,
+h2 {
+  font-family: "Garamond", serif;
+  text-align: center;
+}
+
+header {
+  text-shadow: 2px 2px 8px #000000;
+  color: white;
+  background-color: darkred;
+  border: 5px solid white;
+  border-top-left-radius: 7px;
+  border-top-right-radius: 7px;
+  margin-top: 5px;
+}
+
+main {
+  color: black;
+  background-color: white;
+}
+  
+.card1,
+.card2,
+.card3 {
+  border: 2px solid black;
+  border-radius: 7px;
+  margin: 1rem;
+  background-color: lightgrey;
+  box-shadow: 5px 5px 10px grey;
+}
+
+.card-headline {
+  line-height: 3rem;
+  height: 3rem;
+  text-align: center;
+  font-size: 1.5em;
+  font-weight: bold;
+  color: white;
+  background-color: darkred;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  margin-top: 0;
+  text-shadow: 1px 1px 0 #000000, -1px 1px 0 #000000, -1px -1px 0 #000000, 1px -1px 0 #000000;
+}
+
+section p {
+  font-size: 1.2em;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+img {
+  max-width: 95%;
+  max-height: 95%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+footer {
+  border: 5px solid white;
+  background-color: darkred;
+  border-bottom-left-radius: 7px;
+  border-bottom-right-radius: 7px;
+}
+
+.footer-paragraph {
+  color: white;
+  text-align: center;
+  font-size: 1.1em;
+  text-shadow: 2px 2px 8px #000000;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
