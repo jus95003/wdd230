@@ -44,9 +44,11 @@ header picture img {
 	font-size: 2rem;
 	font-weight:700;
 	text-decoration: none;
-	padding: .5rem .75rem;
-	background-color: #eee;
-	color: #000;
+	padding: 3px .5rem 1rem 1rem;
+	background-color: black;
+	color: white;
+  border-left: 5px solid white;
+  border-right: 5px solid white;
 }
 
 #menu::before {
