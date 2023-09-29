@@ -41,7 +41,7 @@ header picture img {
 
 #menu {
 	display: block;
-  position: absolute;
+  text-align: right;
 	font-size: 2rem;
 	font-weight:700;
 	text-decoration: none;
