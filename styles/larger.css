@@ -101,6 +101,7 @@
     grid-column: 1 / 6;
     grid-row: 3 / 4;
     justify-self: center;
+    align-self: center;
   }
   
   footer {
