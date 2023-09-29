@@ -27,7 +27,7 @@ header {
   border-top-right-radius: 7px;
 }
 
-header picture img {
+header picture {
   grid-column: 1 / 3;
   width: 200px;
   max-width: 100%;
