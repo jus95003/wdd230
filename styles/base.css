@@ -179,6 +179,11 @@ footer {
   border-bottom-right-radius: 7px;
 }
 
+footer p::before,
+footer p::after {
+  content: "🌵";
+}
+
 footer picture img {
   border: 2px solid black;
   display: block;
