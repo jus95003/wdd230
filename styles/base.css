@@ -45,7 +45,7 @@ header picture img {
 	font-size: 2rem;
 	font-weight:700;
 	text-decoration: none;
-	padding: 5px 1rem 0px 1rem;
+	padding: 10px 1rem 10px 1rem;
 	background-color: black;
 	color: white;
   border-left: 5px solid white;
@@ -62,7 +62,7 @@ nav {
 }
 
 nav ul {
-  padding: 10px;
+  padding: 0;
   margin: 0;
 }
 
