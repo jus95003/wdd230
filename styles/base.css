@@ -67,6 +67,7 @@ nav ul {
 
 nav li {
   list-style-type: none;
+  display: none;
 }
 
 nav a {
