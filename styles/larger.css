@@ -44,6 +44,10 @@
   nav ul li {
     flex: 1 1 100%;
   }
+
+  #menu {
+		display: none;
+	}
   
   main {
     grid-column: 1 / 6;
