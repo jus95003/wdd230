@@ -61,8 +61,6 @@ header picture img {
 nav {
   border-left: 5px solid white;
   border-right: 5px solid white;
-  border-top: 10px solid black;
-  border-bottom: 10px solid black;
 }
 
 nav ul {
@@ -72,6 +70,7 @@ nav ul {
 
 nav li {
   list-style-type: none;
+  padding: 5px;
   display: none;
 }
 
