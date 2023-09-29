@@ -84,12 +84,13 @@ nav a:visited {
   color: darkred;
 }
 
-nav a:active {
-  color: gold;
-}
-
 nav a:hover {
   background-color: darkred;
+  color: white;
+}
+
+nav a:active {
+  color: gold;
 }
 
 .show li {
