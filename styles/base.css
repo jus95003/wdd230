@@ -180,11 +180,11 @@ footer {
 }
 
 footer p::before {
-  content: "🌵 ";
+  content: "🌵  ";
 }
 
 footer p::after {
-  content: " 🌵";
+  content: "  🌵";
 }
 
 footer picture img {
