@@ -179,9 +179,12 @@ footer {
   border-bottom-right-radius: 7px;
 }
 
-footer p::before,
+footer p::before {
+  content: "🌵 ";
+}
+
 footer p::after {
-  content: "🌵";
+  content: " 🌵";
 }
 
 footer picture img {
