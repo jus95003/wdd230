@@ -21,7 +21,7 @@ header {
   align-items: center;
   text-shadow: 2px 2px 8px #000000;
   background-color: darkred;
-  padding: 40px;
+  padding: 20px;
   border: 5px solid white;
   border-top-left-radius: 7px;
   border-top-right-radius: 7px;
@@ -48,6 +48,7 @@ header picture img {
 	text-decoration: none;
 	padding: 0;
 	background-color: darkred;
+  align-self: start;
 }
 
 #menu::before {
@@ -172,6 +173,7 @@ main {
 
 iframe {
   grid-column: 1 / 3;
+  justify-self: center;
 }
 
 footer {
