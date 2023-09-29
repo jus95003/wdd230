@@ -98,12 +98,15 @@
     padding-right: 5rem;
   }
 
+iframe {
+  grid-column: 1 / 6;
+  grid-row: 3 / 4;
+  justify-self: center;
+  align-self: center;
+}
+
   .large-frame {
-    display: contents;
-    grid-column: 1 / 6;
-    grid-row: 3 / 4;
-    justify-self: center;
-    align-self: center;
+    display: flex;
   }
 
   .mobile-frame {
