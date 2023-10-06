@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css?family=League+Spartan|Merriweather+Sans|Lato');
+
+html {
+  background-color: #00004A;
+}
+  
+body {
+  max-width: 900px;
+  margin: 0 auto;
+  background-color: white;
+  padding: 1rem;
+  color: black;
+}
+
+img {
+  max-width: 100%;
+}
+
+h1, h2, h3, h4 {
+  font-family: "League Spartan", sans-serif;
+  margin: 1rem;
+}
+
+h1, h2, h3 {
+  text-align: center;
+}
+
+h1 {font-size: 5rem}
+h2 {font-size: 3rem}
+h3 {font-size: 2rem}
+h4 {font-size: 1.5rem}
+
+header {
+  padding: 1rem;
+  text-align: center;
+  color: #E5E4E2;
+  text-shadow: 2px 2px 8px #636363;
+  background-color: #B7410E;
+  margin-bottom: 2rem;
+  border: 4px solid #636363;
+}
+
+section {
+  border-top: 4px solid black;
+  padding: 1rem;
+}
+
+p {
+  font-family: Lato, Arial, sans-serif;
+  padding: 0 1rem 1rem 1rem;
+  margin: 0;
+}
+
+.colors {
+  width: 100%;
+  min-width: 350px;
+  margin: auto auto 1rem auto;
+  text-align: center;
+  font-family: "Merriweather Sans", sans-serif;
+}
+
+.colors th {
+  background-color: #999999;
+}
+
+.colors td{
+  width: 25%;
+  height: 3rem;
+}
+
+.primary {
+  color: white;
+  background-color: #00004A;
+}
+  
+.secondary {
+  background-color: #E5E4E2;
+}
+  
+.accent1 {
+  color: white;
+  background-color: #B7410E;
+}
+
+.accent2{
+  color: white;
+  background-color: #636363;
+}
+
+.headline-font h4,
+.headline-font p {
+  font-family: "League Spartan", sans-serif;
+}
+
+.headline-font h4 {
+  font-size: 1.6rem;
+}
+
+.headline-font p {
+  font-size: 1.25rem;
+}
+
+.paragraph-font h4,
+.paragraph-font p {
+  font-family: Lato, sans-serif;
+}
+
+.link-font h4,
+.link-font p {
+  font-family: "Merriweather Sans", sans-serif;
+}
+
+.link-font h4 {
+  font-size: 1.3rem;
+}
+
+.paragraph-font p {
+  font-size: 1.1rem;
+}
