@@ -4,7 +4,7 @@ const list = document.querySelector('#list');
 
 button.addEventListener('click', function() {
     
-    if (input.value = '') {
+    if (input.value == '') {
         input.focus();
     }
 
