@@ -65,10 +65,10 @@
   
     .theme-switch {
       display: inline-block;
-      vertical-align: top;
       height: 34px;
       position: relative;
       width: 60px;
+      margin-left: auto;
     }
     
     .theme-switch input {
