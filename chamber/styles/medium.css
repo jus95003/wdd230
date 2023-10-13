@@ -59,6 +59,11 @@
       flex: 1 1 100%;
       padding: 0;
     }
+
+    nav a:hover {
+      background-color: #9F390C;
+      color: white;
+    }
   
     #menu {
       display: none;
