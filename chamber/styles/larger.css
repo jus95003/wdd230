@@ -88,7 +88,7 @@
     }
     
     .slider:before {
-      background-color: #E5E4E2;
+      background-color: white;
       bottom: 4px;
       content: "";
       height: 26px;
