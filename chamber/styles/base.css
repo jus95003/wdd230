@@ -41,7 +41,7 @@
   }
   
   .slider {
-    background-color: #636363;
+    background-color: white;
     bottom: 0;
     cursor: pointer;
     left: 0;
@@ -52,7 +52,7 @@
   }
   
   .slider:before {
-    background-color: white;
+    background-color: #636363;
     bottom: 4px;
     content: "";
     height: 26px;
@@ -220,7 +220,7 @@ nav a:link {
 }
 
 nav a:visited {
-  color: #299F0C;
+  color: #66bb6a;
 }
 
 nav a:hover {
