@@ -41,7 +41,7 @@
   }
   
   .slider {
-    background-color: #ccc;
+    background-color: #636363;
     bottom: 0;
     cursor: pointer;
     left: 0;
@@ -52,7 +52,7 @@
   }
   
   .slider:before {
-    background-color: #636363;
+    background-color: white;
     bottom: 4px;
     content: "";
     height: 26px;
