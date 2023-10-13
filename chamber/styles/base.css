@@ -30,7 +30,7 @@ body {
   background-color: black;
 }
 
-h1 {
+h1, h2 {
   font-family: "League Spartan", sans-serif;
   text-align: center;
   margin: 0;
