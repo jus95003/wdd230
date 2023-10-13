@@ -29,7 +29,7 @@
     align-items: center;
     grid-column: 1 / 2;
     grid-row: 3 / 4;
-    align-self: bottom;
+    align-self: end;
   }
 
   .theme-switch {
