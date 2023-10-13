@@ -30,6 +30,17 @@ button.addEventListener('click', function() {
         input.focus();
 
         input.value = '';
+
+        const listItems = Array.from(list.getElementsByTagName('li'));
+
+        listItems.sort((a, b) => a.textContent.localeCompare(b.textContent));
+
+        list.innerHTML = '';
+
+        for (const item of listItems)
+        {
+            list.appendChild(item);
+        }
     }
 
 });
