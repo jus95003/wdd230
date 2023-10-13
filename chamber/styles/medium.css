@@ -1,5 +1,27 @@
 @media screen and (min-width: 481px) {
   
+  :root {
+    --primary-color: #9F390C;
+    --secondary-color: #0C299F;
+    --font-style-color: #E5E4E2;
+    --border-color: #636363;
+    --font-color: white;
+    --outline-color: black;
+    --shadow-color: grey;
+    --cta-bg-color: rgba(12, 41, 159, 0.7);
+  }
+
+  [data-theme="dark"] {
+    --primary-color: #9F390C;
+    --secondary-color: #0C299F;
+    --font-style-color: #E5E4E2;
+    --border-color: #636363;
+    --font-color: white;
+    --outline-color: black;
+    --shadow-color: grey;
+    --cta-bg-color: rgba(12, 41, 159, 0.7);
+  }
+
     header {
       display: grid;
       grid-template-columns: 30% 17% 16% 17% 20%;
