@@ -59,12 +59,7 @@
       flex: 1 1 100%;
       padding: 0;
     }
-
-    nav a:hover {
-      background-color: #9F390C;
-      color: white;
-    }
-  
+ 
     #menu {
       display: none;
     }
@@ -76,7 +71,6 @@
       left: 50%;
       transform: translate(-50%, -50%);
       padding: 10px;
-      background-color: rgba(12, 41, 159, 0.7);
     }
     
     .card-box {

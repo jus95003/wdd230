@@ -298,6 +298,7 @@ footer {
 
 .lower-footer-version-2 {
   display: none;
+  border-top: 5px solid #636363;
 }
 
 footer p {

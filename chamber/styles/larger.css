@@ -66,7 +66,7 @@
   
     #menu {
           display: none;
-      }
+    }
     
     .call-to-action {
       font-size: 2rem;
@@ -160,7 +160,6 @@
     .lower-footer-version-2 {
       display: block;
       text-align: center;
-      border-top: 5px solid #636363;
       padding-top: 1rem;
     }
     
