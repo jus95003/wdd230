@@ -25,7 +25,7 @@
     --card-text-color: #E5E4E2;
     --outline-color: black;
     --shadow-color: grey;
-    --cta-bg-color: rgba(12, 41, 159, 0.7);
+    --cta-bg-color: rgba(6, 20, 76, 0.7);
   }
 
     body {
@@ -167,6 +167,7 @@
       left: 72%;
       transform: translate(0, 0);
       padding: 0;
+      background-color: var(--cta-bg-color);
     }
     
     .call-to-action a {
