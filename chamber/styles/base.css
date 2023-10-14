@@ -18,7 +18,7 @@
 
   [data-theme="dark"] {
     --primary-color: #9F390C;
-    --secondary-color: #07195F;
+    --secondary-color: #06144C;
     --font-style-color: #E5E4E2;
     --border-color: #636363;
     --font-color: white;
@@ -72,7 +72,7 @@
   }
   
   input:checked + .slider {
-    background-color: #66bb6a;
+    background-color: #4164F1;
   }
   
   input:checked + .slider:before {
