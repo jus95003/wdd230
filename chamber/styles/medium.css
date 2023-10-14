@@ -145,6 +145,10 @@
     #menu {
       display: none;
     }
+
+    main {
+      background-color: var(--main-bg-color);
+    }
   
     .call-to-action {
       position: absolute;
