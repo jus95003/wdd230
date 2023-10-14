@@ -32,7 +32,6 @@
 
   .theme-switch-wrapper {
     display: flex;
-    align-items: center;
     grid-column: 5 / 6;
     grid-row: 1 / 2;
   }
