@@ -7,6 +7,7 @@
     --border-color: #636363;
     --font-color: white;
     --main-bg-color: white;
+    --card-bg-color: #E5E4E2;
     --outline-color: black;
     --shadow-color: grey;
     --cta-bg-color: rgba(12, 41, 159, 0.7);
@@ -19,6 +20,7 @@
     --border-color: #636363;
     --font-color: white;
     --main-bg-color: #121212;
+    --card-bg-color: #151513;
     --outline-color: black;
     --shadow-color: grey;
     --cta-bg-color: rgba(12, 41, 159, 0.7);
@@ -186,6 +188,14 @@
       display: grid;
       grid-template-columns: 1fr 1fr 1fr;
       grid-template-rows: 1fr 1fr;
+    }
+
+    .card1,
+    .card2,
+    .card3,
+    .card4,
+    .card5 {
+      background-color: var(--card-bg-color);
     }
   
     .card1 {

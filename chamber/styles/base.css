@@ -9,6 +9,7 @@
     --border-color: #636363;
     --font-color: white;
     --main-bg-color: white;
+    --card-bg-color: #E5E4E2;
     --outline-color: black;
     --shadow-color: grey;
     --cta-bg-color: rgba(12, 41, 159, 0.7);
@@ -21,6 +22,7 @@
     --border-color: #636363;
     --font-color: white;
     --main-bg-color: #121212;
+    --card-bg-color: #151513;
     --outline-color: black;
     --shadow-color: grey;
     --cta-bg-color: rgba(12, 41, 159, 0.7);
@@ -306,7 +308,7 @@ main picture img {
   border: 2px solid var(--outline-color);
   border-radius: 7px;
   margin: 1rem;
-  background-color: var(--font-style-color);
+  background-color: var(--card-bg-color);
   box-shadow: 5px 5px 10px grey;
 }
 
