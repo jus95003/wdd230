@@ -7,6 +7,7 @@ button.addEventListener('click', function() {
     if (input.value == '') {
         input.focus();
     }
+    
     else if (!input.value.match(/.*([0-9])$/))
     {
         input.focus();
