@@ -5,7 +5,7 @@
     margin: 0 auto;
     display: grid;
     grid-template-columns: repeat(5, 1fr);
-    grid-template-rows: 305px 68px 1500px 162px;
+    grid-template-rows: 305px 68px 1504px 162px;
   }
 
   header {
@@ -58,7 +58,7 @@
     grid-row: 3 / 4;
     display: grid;
     grid-template-columns: repeat(5, 1fr);
-    grid-template-rows: 600px 87px 395px 418px;
+    grid-template-rows: 604px 87px 395px 418px;
     justify-items: center;
   }
 
@@ -72,7 +72,7 @@
     width: 940px;
     max-width: 100%;
     height: auto;
-    border-top: 5px solid white;
+    border-top: 16px solid white;
   }
   
   .home-headline {
