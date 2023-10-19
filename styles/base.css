@@ -119,8 +119,11 @@ main {
   background-color: white;
 }
 
-.hero img {
+main picture {
   grid-column: 1 / 3;
+}
+
+.hero img {
   width: 100%;
   height: auto;
 }
