@@ -67,6 +67,12 @@
     grid-row: 1 / 2;
     justify-self: center;
   }
+
+  .hero img {
+    width: 940px;
+    max-width: 100%;
+    height: auto;
+  }
   
   .home-headline {
     grid-column: 1 / 6;
