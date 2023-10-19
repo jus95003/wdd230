@@ -66,6 +66,7 @@
     grid-column: 1 / 6;
     grid-row: 1 / 2;
     justify-self: center;
+    position: relative;
   }
 
   .hero img {
@@ -73,6 +74,22 @@
     max-width: 100%;
     height: auto;
     border-top: 16px solid white;
+  }
+
+  .herolabel {
+    position: absolute;
+    top: 30px;
+    left: 30px;
+    border: 1px solid rgba(0,0,0,.75);
+    padding: 1rem;
+    opacity: 1;
+  }
+  
+  .herolabel p {
+    margin: 0;
+    padding: .25rem;
+    font-size: 2rem;
+    font-family: "Great Vibes", serif;
   }
   
   .home-headline {
