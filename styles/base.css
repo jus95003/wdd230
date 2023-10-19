@@ -133,6 +133,7 @@ main {
 
 .herolabel {
   position: absolute;
+  width: 300px;
   top: 10%;
   left: 50%;
   transform: translate(-75%, -50%);
