@@ -89,7 +89,8 @@
   .herolabel p {
     margin: 0;
     padding: .25rem;
-    font-size: 3rem;
+    font-size: 2.5rem;
+    font-weight: 700;
     font-family: "Cinzel Decorative", serif;
   }
   
