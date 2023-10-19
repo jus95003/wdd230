@@ -119,7 +119,7 @@ main {
   background-color: white;
 }
 
-main picture {
+.hero {
   grid-column: 1 / 3;
 }
 
