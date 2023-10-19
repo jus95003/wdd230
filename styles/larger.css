@@ -80,8 +80,9 @@
 
   .herolabel {
     position: absolute;
-    top: 30px;
-    left: 30px;
+    top: 10%;
+    left: 50%;
+    transform: translate(-50%, -50%);
     opacity: 1;
   }
   
@@ -89,6 +90,7 @@
     margin: 0;
     padding: .25rem;
     font-size: 2rem;
+    font-weight: 700;
     font-family: "Cinzel Decorative", serif;
   }
   
