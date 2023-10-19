@@ -120,6 +120,7 @@ main {
 }
 
 .hero img {
+  grid-column: 1 / 3;
   width: 100%;
   height: auto;
 }
