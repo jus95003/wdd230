@@ -5,7 +5,7 @@
     margin: 0 auto;
     display: grid;
     grid-template-columns: repeat(5, 1fr);
-    grid-template-rows: 305px 68px 900px 162px;
+    grid-template-rows: 305px 68px 1500px 162px;
   }
 
   header {
@@ -58,13 +58,19 @@
     grid-row: 3 / 4;
     display: grid;
     grid-template-columns: repeat(5, 1fr);
-    grid-template-rows: 87px 395px 418px;
+    grid-template-rows: 600px 87px 395px 418px;
     justify-items: center;
+  }
+
+  .hero {
+    grid-column: 1 / 6;
+    grid-row: 1 / 2;
+    justify-self: center;
   }
   
   .home-headline {
     grid-column: 1 / 6;
-    grid-row: 1 / 2;
+    grid-row: 2 / 3;
     padding-left: 12rem;
     padding-right: 12rem;
     margin-top: 24px;
@@ -78,7 +84,7 @@
   
   .card-box {
     grid-column: 1 / 6;
-    grid-row: 2 / 3;
+    grid-row: 3 / 4;
     display: flex;
     flex-direction: row;
   }
@@ -100,7 +106,7 @@
 
 iframe {
   grid-column: 1 / 6;
-  grid-row: 3 / 4;
+  grid-row: 4 / 5;
   justify-self: center;
   align-self: center;
 }
