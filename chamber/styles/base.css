@@ -264,6 +264,12 @@ main {
   font-size: 1.5rem;
 }
 
+/* remove */
+.hero img {
+  width: 100%;
+  height: auto;
+}
+
 .call-to-action-small {
   position: absolute;
   width: 220px;
@@ -276,6 +282,7 @@ main {
 
 .call-to-action-small p {
   font-family: "Merriweather Sans", sans-serif;
+  margin: 0;
 }
 
 .call-to-action-medium {

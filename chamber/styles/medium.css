@@ -175,7 +175,7 @@
   .call-to-action-medium p {
     margin: 0;
   }
-  
+
   .call-to-action-small {
     display: none;
   }
@@ -184,6 +184,7 @@
     display: none;
   }
 
+  /* remove */
   .hero img {
     width: 100%;
     height: auto;
