@@ -172,6 +172,10 @@
     background-color: var(--cta-bg-color);
   }
 
+  .call-to-action-medium p {
+    margin: 0;
+  }
+  
   .call-to-action-small {
     display: none;
   }
