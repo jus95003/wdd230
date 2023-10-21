@@ -162,6 +162,7 @@
   }
 
   .call-to-action-medium {
+    display: block;
     position: absolute;
     width: 220px;
     top: 90%;
