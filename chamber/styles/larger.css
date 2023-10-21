@@ -159,6 +159,7 @@
     }
 
     .call-to-action-large {
+      display: block;
       font-size: 2rem;
       position: absolute;
       width: 240px;
