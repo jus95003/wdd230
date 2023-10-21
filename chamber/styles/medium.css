@@ -161,7 +161,7 @@
     background-color: var(--main-bg-color);
   }
 
-  .call-to-action {
+  .call-to-action-medium {
     position: absolute;
     width: 220px;
     top: 90%;
@@ -169,6 +169,14 @@
     transform: translate(-50%, -50%);
     padding: 10px;
     background-color: var(--cta-bg-color);
+  }
+
+  .call-to-action-small {
+    display: none;
+  }
+  
+  .call-to-action-large {
+    display: none;
   }
   
   .card-box {

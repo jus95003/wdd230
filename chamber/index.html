@@ -26,7 +26,7 @@
         <h1 class="page-name-1">Queen Creek</h1>
         <h2 class="page-name-2">Chamber of Commerce</h2>
         <picture class="city-logo-header">
-          <img src="images/queen-creek-logo.jpg" alt="Queen Creek Logo">
+          <img src="images/queen-creek-logo.webp" alt="Queen Creek Logo">
         </picture>
         <div class="social">
           <div class="social-1">
@@ -59,11 +59,17 @@
         </ul>
       </nav> 
       <main class="home-area">
-        <div class="container">
+        <div class="hero">
           <picture class="city-photo">
-            <img src="images/queen-creek-arizona-welcome-sign.jpg" alt="Queen Creek Sign">
+            <!--<img src="images/queen-creek-arizona-welcome-sign.jpg" alt="Queen Creek Sign">-->
+            <source srcset="images/wdd230-org-small.webp" media="(max-width: 500px)">
+            <source srcset="images/wdd230-org-medium.webp" media="(max-width: 1000px)">
+            <img src="images/wdd230-org-large.webp" alt="Freak With Kool-Aid Hair" width="1000" height="667">
           </picture>
-          <div class="call-to-action"><a href="chamber/join.html">Join the Chamber</a></div>
+          <!--<div class="call-to-action"><a href="chamber/join.html">Join the Chamber</a></div>-->
+          <div class="call-to-action-small"><p>Small</p></div>
+          <div class="call-to-action-medium"><p>Medium</p></div>
+          <div class="call-to-action-large"><p>Large</p></div>
         </div>  
         <div class="card-box">
           <section class="card1">
@@ -101,7 +107,7 @@
       <footer>
         <div class="upper-footer">
           <picture class="city-logo">
-            <img src="images/queen-creek-logo.jpg" alt="Queen Creek Logo">
+            <img src="images/queen-creek-logo.webp" alt="Queen Creek Logo">
           </picture>
           <div class="coc-address">
             <p class="ufp1">Queen Creek</p>
