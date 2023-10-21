@@ -187,7 +187,7 @@
       display: none;
     }
     
-    .city-logo-header img {
+    img {
       max-width: 100%;
       max-height: 100%;
       margin: 0 auto;
@@ -196,6 +196,11 @@
     main picture img {
       padding-top: 1rem;
       width: 1000px;
+      max-width: 100%;
+      max-height: 100%;
+      margin: 0 auto;
+      width: 100%;
+      height: auto;
     }
   
     .card-box {
