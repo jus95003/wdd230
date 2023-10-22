@@ -356,6 +356,10 @@ section p {
   padding-right: 20px;
 }
 
+.card2 p {
+  text-align: center;
+}
+
 footer {
   border: 5px solid var(--border-color);
   background-color: var(--primary-color);
