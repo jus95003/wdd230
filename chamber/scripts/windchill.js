@@ -19,5 +19,5 @@ document.addEventListener("DOMContentLoaded", function ()
         }
     }
 
-    document.querySelector('#order-button').textContent = calculateWindchill();
+    document.querySelector('#current-chill').textContent = calculateWindchill();
 });
