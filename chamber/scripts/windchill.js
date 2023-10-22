@@ -1,25 +1,23 @@
-let temp = document.getElementById('current-temp');
-
-let wind = document.getElementsById('current-wind');
-
-let chill;
-
-function calculateWindchill()
+document.addEventListener("DOMContentLoaded", function ()
 {
-    chill = 35.74 + (0.6215 * temp) - (35.75 * (wind^0.16)) + (0.4275 * temp * (wind^0.16));
-}
+    let temp = document.getElementById('current-temp');
 
-function displayTotal()
-{
-    if (temp <= 50 && wind > 3)
+    let wind = document.getElementsById('current-wind');
+
+    function calculateWindchill()
     {
-        calculateWindchill();
+        if (temp <= 50 && wind > 3)
+        {
+            let chill = 35.74 + (0.6215 * temp) - (35.75 * (wind^0.16)) + (0.4275 * temp * (wind^0.16));
 
-        document.querySelector('#current-chill').textContent = chill;
+            return chill;
+        }
+
+        else
+        {
+            return "N/A";
+        }
     }
 
-    else
-    {
-        document.querySelector('#current-chill').textContent = "NA";
-    }
-}
+    document.querySelector('#order-button').textContent = calculateWindchill();
+});
