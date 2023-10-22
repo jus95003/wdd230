@@ -2,7 +2,7 @@ document.addEventListener("DOMContentLoaded", function ()
 {
     let temp = document.getElementById('current-temp');
 
-    let wind = document.getElementsById('current-wind');
+    let wind = document.getElementById('current-wind');
 
     function calculateWindchill()
     {
