@@ -10,10 +10,8 @@ document.addEventListener("DOMContentLoaded", function ()
         {
             let chill = 35.74 + (0.6215 * Number(temp)) - (35.75 * (Number(wind) ** 0.16)) + (0.4275 * Number(temp) * (Number(wind) ** 0.16));
 
-            return chill.toFixed(0);
+            return chill.toFixed(0).toString() + "°F";
         }
-
-      
 
         else
         {
