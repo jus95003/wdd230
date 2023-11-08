@@ -1,0 +1,55 @@
+<!doctype html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Ian O. Justice - WDD 230 - Web Frontend Development</title>
+    <meta
+      name="description"
+      content="Lazy loading exercise for Ian O. Justice in WDD 230 - Web Frontend Development at Brigham Young University - Idaho"
+    >
+    <meta name="author" content="Ian O. Justice">
+    <link rel="stylesheet" href="styles/lazyload.css">
+    <meta property="og:title" content="Ian O. Justice - WDD 230 - Web Frontend Development">
+    <meta property="og:type" content="website">
+    <meta property="og:image" content="https://worldofarizona.com/wp-content/uploads/2019/09/queen-creek-arizona-welcome-sign.jpg">
+    <meta property="og:url" content="https://jus95003.github.io/wdd230">
+    <meta name="twitter:card" content="summary_large_image">
+  </head>
+  <body>
+    <div class="content">
+      <header>
+        <h1 class="full-name">Lazy Loading</h1>
+      </header>
+      <main class="home-area">
+          <picture>
+            <img src="https://picsum.photos/400/600.webp" loading="lazy" width="400" height="600">
+          </picture>
+          <picture>
+            <img src="https://picsum.photos/399/600.webp" loading="lazy" width="400" height="600">
+          </picture>
+          <picture>
+            <img src="https://picsum.photos/398/600.webp" loading="lazy" width="400" height="600">
+          </picture>
+          <picture>
+            <img src="https://picsum.photos/397/600.webp" loading="lazy" width="400" height="600">
+          </picture>
+          <picture>
+            <img src="https://picsum.photos/396/600.webp" loading="lazy" width="400" height="600">
+          </picture>
+          <picture>
+            <img src="https://picsum.photos/395/600.webp" loading="lazy" width="400" height="600">
+          </picture>
+      </main>
+      <footer>
+        <p class="footer-paragraph-1">
+          &copy; <span id="currentyear"></span> | Ian O. Justice | Arizona
+        </p>
+        <p class="footer-paragraph-2">
+          Last Updated: <span id="last-modified"></span>
+        </p>
+      </footer>
+    </div>
+    <script src="scripts/lazyload.js" defer></script>
+  </body>
+</html>
