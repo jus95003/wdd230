@@ -1,0 +1,85 @@
+@import url("https://fonts.googleapis.com/css?family=Lato|Cinzel+Decorative");
+
+body {
+  background-color: black;
+  font-family: "Lato", "Arial", sans-serif;
+}
+
+header {
+    align-items: center;
+    text-shadow: 2px 2px 8px #000000;
+    color: white;
+    background-color: darkred;
+    padding: 20px;
+    border: 8px solid gray;
+    border-top-left-radius: 7px;
+    border-top-right-radius: 7px;
+}
+
+h1 {
+  font-family: "Garamond", serif;
+  font-size: 3em;
+  text-align: center;
+}
+
+h2 {
+  text-align: center;
+}
+
+main {
+  background-color: white;
+  border-left: 8px solid gray;
+  border-right: 8px solid gray;
+  padding: 13px;
+}
+
+#cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+}
+
+section {
+  border: 3px solid black;
+  border-radius: 7px;
+  margin: 3px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: darkred;
+}
+
+section h2 {
+  line-height: 3rem;
+  height: 3rem;
+  text-align: center;
+  font-size: 1.5em;
+  font-weight: bold;
+  color: white;
+  background-color: darkred;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  margin: 0;
+  text-shadow: 1px 1px 0 #000000, -1px 1px 0 #000000, -1px -1px 0 #000000, 1px -1px 0 #000000;
+}
+
+section p {
+    color: white;
+    margin: 5px;
+    text-shadow: 1px 1px 0 #000000, -1px 1px 0 #000000, -1px -1px 0 #000000, 1px -1px 0 #000000;
+}
+
+section img {
+    margin: 1rem;
+}
+
+footer {
+  text-align: center;
+  color: white;
+  text-shadow: 1px 1px 0 #000000, -1px 1px 0 #000000, -1px -1px 0 #000000, 1px -1px 0 #000000;
+  border: 8px solid grey;
+  background-color: darkred;
+  border-bottom-left-radius: 7px;
+  border-bottom-right-radius: 7px;
+  padding: 1rem;
+  font-size: 1.5em;
+}
