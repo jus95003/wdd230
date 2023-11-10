@@ -1,13 +1,13 @@
 const baseURL = "https://jus95003.github.io/wdd230/";
 
-const linksURL = "https://jus95003.github.io/wdd230/data/links.json";
+const linksURL = 'https://jus95003.github.io/wdd230/data/links.json';
 
 const cardList = document.querySelector('.card-list');
 
 async function getLinks() {
     const response = await fetch(linksURL);
     const data = await response.json();
-    displayLinks(data);
+    displayLinks(data.lessons);
   }
   
   getLinks();
@@ -15,21 +15,23 @@ async function getLinks() {
   const displayLinks = (weeks) => {
     weeks.forEach((week) => {
         let line = document.createElement('li');
-        line.textContent = `Lesson ${lesson}: `;
-        week.forEach((link) => {
-            let anchor = document.createElement('a');
-            let anchorText = document.createTextNode({title})
+        line.textContent = `Lesson ${week.lesson}:\xa0\xa0\xa0`;
 
-            anchor.setAttribute('target', '_blank')
-            anchor.setAttribute('href', {url})
-            anchor.textContent = anchorText;
+        week.links.forEach((link) => {
+            let anchor = document.createElement('a');
+
+            anchor.setAttribute('target', '_blank');
+            anchor.setAttribute('href', link.url);
+            anchor.textContent = link.title;
 
             line.appendChild(anchor);
-            line.appendChild(" | ");
-        });
+            line.insertAdjacentHTML( 'beforeend', " | " );
 
+            
+        });
         
-        
+
+
         cardList.appendChild(line);
     });
   }
