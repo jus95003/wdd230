@@ -304,8 +304,8 @@
     .qc-arts-center-label, 
     .qc-town-hall-label {
       position: absolute;
-      width: 350px;
-      top: 85%;
+      width: 520px;
+      top: 90%;
       left: 50%;
       transform: translate(-50%, -50%);
       opacity: 1;
