@@ -264,12 +264,6 @@ main {
   font-size: 1.5rem;
 }
 
-/* remove */
-.hero img {
-  width: 100%;
-  height: auto;
-}
-
 .call-to-action-small {
   position: absolute;
   width: 220px;
@@ -293,7 +287,6 @@ main {
   display: none;
 }
 
-/*
 .call-to-action a {
     font-family: "Merriweather Sans", sans-serif;
 }
@@ -308,7 +301,6 @@ main {
   background-color: var(--primary-color);
   color: var(--font-color);
 }
-*/
 
 img {
   max-width: 95%;
@@ -316,10 +308,6 @@ img {
   display: block;
   margin-left: auto;
   margin-right: auto;
-}
-
-main picture img {
-  padding-top: 10px;
 }
   
 .card1,
@@ -358,6 +346,90 @@ section p {
 
 .card2 p {
   text-align: center;
+}
+
+.discover {
+  padding-bottom: 10px;
+}
+
+.hover {
+  padding: 10px;
+}
+
+.olive-mill-div,
+.san-tan-park-div,
+.horseshoe-park-div,
+.schnepf-farms-div,
+.mansel-carter-div,
+.qc-arts-center-div,
+.qc-town-hall-div {
+  position: relative;
+}
+
+.olive-mill-label,
+.san-tan-park-label,
+.horseshoe-label,
+.schnepf-farms-label,
+.mansel-carter-label,
+.qc-arts-center-label,
+.qc-town-hall-label {
+  position: absolute;
+  width: 350px;
+  top: 90%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  opacity: 1;
+}
+
+.olive-mill-label,
+.san-tan-park-label,
+.horseshoe-label,
+.schnepf-farms-label,
+.mansel-carter-label,
+.qc-arts-center-label, 
+.qc-town-hall-label p {
+  margin: 0;
+  padding: .25rem;
+  font-size: 1.2rem;
+  font-weight: 700;
+  color: yellow;
+  text-shadow: 1px 1px 0 #000000, -1px 1px 0 #000000, -1px -1px 0 #000000, 1px -1px 0 #000000;
+  text-align: center;
+}
+
+iframe {
+  display: flex;
+  width: 400px;
+  height: 400px;
+  border: 2px solid black;
+  max-width: 95%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.page-visits-div {
+  display: flex;
+  justify-content: center;
+  background-color: var(--secondary-color);
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-top: 0;
+  margin-bottom: 0;
+  border: 2px solid black;
+}
+
+.page-visits-div p {
+  display: flex;
+  font-size: 1.8rem;
+  font-weight: 700;
+  color: white;
+  background-color: var(--secondary-color);
+  text-shadow: 1px 1px 0 #000000, -1px 1px 0 #000000, -1px -1px 0 #000000, 1px -1px 0 #000000;
+  text-align: center;
+  align-items: center;
+  padding: 1rem;
+  margin-top: 0;
+  margin-bottom: 0;
 }
 
 footer {

@@ -29,7 +29,7 @@
   }
 
     body {
-      max-width: 1050px;
+      max-width: 1058px;
       margin: 0 auto;
     }
     
@@ -192,12 +192,145 @@
       max-height: 100%;
       margin: 0 auto;
     }
+
+    .hover {
+      margin-top: 0;
+    }
     
-    main picture img {
+    .city-photo {
       padding-top: 1rem;
       max-width: 96%;
     }
+
+    .discover {
+      display: grid;
+      grid-template-columns: 424px 624px;
+      grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+      justify-items: center;
+      align-items: center;
+      padding-bottom: 10px;
+    }
+
+    .olive-frame {
+      grid-column: 1 / 2;
+      grid-row: 1 / 2;
+    }
+
+    .olive-mill-div {
+      grid-column: 2 / 3;
+      grid-row: 1 / 2;
+      position: relative;
+    }
+
+    .san-tan-frame {
+      grid-column: 1 / 2;
+      grid-row: 2 / 3;
+    }
+
+    .san-tan-park-div {
+      grid-column: 2 / 3;
+      grid-row: 2 / 3;
+      position: relative;
+    }
+
+    .horseshoe-frame {
+      grid-column: 1 / 2;
+      grid-row: 3 / 4;
+    }
+
+    .horseshoe-park-div {
+      grid-column: 2 / 3;
+      grid-row: 3 / 4;
+      position: relative;
+    }
+
+    .schnepf-frame {
+      grid-column: 1 / 2;
+      grid-row: 4 / 5;
+    }
+
+    .schnepf-farms-div {
+      grid-column: 2 / 3;
+      grid-row: 4 / 5;
+      position: relative;
+    }
+
+    .mansel-frame {
+      grid-column: 1 / 2;
+      grid-row: 5 / 6;
+    }
+
+    .mansel-carter-div {
+      grid-column: 2 / 3;
+      grid-row: 5 / 6;
+      position: relative;
+    }
+
+    .qc-arts-frame {
+      grid-column: 1 / 2;
+      grid-row: 6 / 7;
+    }
+
+    .qc-arts-center-div {
+      grid-column: 2 / 3;
+      grid-row: 6 / 7;
+      position: relative;
+    }
+
+    .qc-town-hall-div {
+      grid-column: 2 / 3;
+      grid-row: 7 / 8;
+      position: relative;
+    }
+
+    .page-visits-div {
+      grid-column: 1 / 2;
+      grid-row: 7 / 8;
+      width: 400px;
+      height: 400px;
+      border: 2px solid black;
+    }
+
+    .page-visits-div p {
+      margin: 0;
+      font-size: 2.5rem;
+    }
+
+    .olive-mill-label,
+    .san-tan-park-label,
+    .horseshoe-label,
+    .schnepf-farms-label,
+    .mansel-carter-label,
+    .qc-arts-center-label, 
+    .qc-town-hall-label {
+      position: absolute;
+      width: 350px;
+      top: 90%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      opacity: 1;
+    }
+    
+    .olive-mill-label,
+    .san-tan-park-label,
+    .horseshoe-label,
+    .schnepf-farms-label,
+    .mansel-carter-label,
+    .qc-arts-center-label, 
+    .qc-town-hall-label p {
+      margin: 0;
+      padding: .25rem;
+      font-size: 1.8rem;
+      font-weight: 700;
+      color: yellow;
+      text-shadow: 1px 1px 0 #000000, -1px 1px 0 #000000, -1px -1px 0 #000000, 1px -1px 0 #000000;
+      text-align: center;
+    }
   
+    .hover:hover {
+      box-shadow: 0 0 50px #333;
+    }
+
     .card-box {
       display: grid;
       grid-template-columns: 1fr 1fr 1fr;
