@@ -6,13 +6,13 @@ document.addEventListener("DOMContentLoaded", function () {
 
     let currentDate = Date.now();
 
-    let numberOfDays = Math.floor((currentDate-lastVisitDate)/60000)
+    let numberOfDays = Math.floor((currentDate-lastVisitDate)/86400000)
 
     if (lastVisitDate == 0) {
         visitsDisplay.textContent = `Welcome! Let us know if you have any questions.`;
     }
 
-    else if ((currentDate-lastVisitDate)<60000) {
+    else if ((currentDate-lastVisitDate)<86400000) {
         visitsDisplay.textContent = `Back so soon! Awesome!`;
     }
     

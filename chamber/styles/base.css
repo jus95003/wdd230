@@ -375,24 +375,26 @@ section p {
 .qc-town-hall-label {
   position: absolute;
   width: 350px;
-  top: 90%;
+  top: 85%;
   left: 50%;
   transform: translate(-50%, -50%);
   opacity: 1;
+  background-color: var(--cta-bg-color);
 }
 
-.olive-mill-label,
-.san-tan-park-label,
-.horseshoe-label,
-.schnepf-farms-label,
-.mansel-carter-label,
-.qc-arts-center-label, 
+.olive-mill-label p,
+.san-tan-park-label p,
+.horseshoe-label p,
+.schnepf-farms-label p,
+.mansel-carter-label p,
+.qc-arts-center-label p, 
 .qc-town-hall-label p {
-  margin: 0;
+  margin-top: 5px;
+  margin-bottom: 5px;
   padding: .25rem;
   font-size: 1.2rem;
   font-weight: 700;
-  color: yellow;
+  color: white;
   text-shadow: 1px 1px 0 #000000, -1px 1px 0 #000000, -1px -1px 0 #000000, 1px -1px 0 #000000;
   text-align: center;
 }
