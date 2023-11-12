@@ -195,6 +195,7 @@
 
     .hover {
       margin-top: 0;
+      margin-bottom: 0;
     }
     
     .city-photo {
@@ -209,6 +210,7 @@
       justify-items: center;
       align-items: center;
       padding-bottom: 10px;
+      padding-top: 10px;
     }
 
     .olive-frame {
@@ -303,14 +305,9 @@
     .mansel-carter-label,
     .qc-arts-center-label, 
     .qc-town-hall-label {
-      position: absolute;
-      width: 520px;
-      top: 90%;
-      left: 50%;
-      transform: translate(-50%, -50%);
-      opacity: 1;
+      top: 87%;
     }
-    
+  
     .olive-mill-label p,
     .san-tan-park-label p,
     .horseshoe-label p,
@@ -318,17 +315,7 @@
     .mansel-carter-label p,
     .qc-arts-center-label p, 
     .qc-town-hall-label p {
-      margin-top: 5px;
-      margin-bottom: 5px;
       font-size: 1.8rem;
-      font-weight: 700;
-      color: white;
-      text-shadow: 1px 1px 0 #000000, -1px 1px 0 #000000, -1px -1px 0 #000000, 1px -1px 0 #000000;
-      text-align: center;
-    }
-  
-    .hover:hover {
-      box-shadow: 0 0 50px #333;
     }
 
     .card-box {
