@@ -1,0 +1,91 @@
+<!doctype html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Ian O. Justice - WDD 230 - Web Frontend Development</title>
+    <meta
+      name="description"
+      content="Course assignment portal for Ian O. Justice in WDD 230 - Web Frontend Development at Brigham Young University - Idaho"
+    >
+    <meta name="author" content="Ian O. Justice">
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/base.css">
+    <link rel="stylesheet" href="styles/larger.css">
+    <link rel="stylesheet" href="styles/form.css">
+    <link rel="icon" href="favicon.ico">
+    <meta property="og:title" content="Ian O. Justice - WDD 230 - Web Frontend Development">
+    <meta property="og:type" content="website">
+    <meta property="og:image" content="https://worldofarizona.com/wp-content/uploads/2019/09/queen-creek-arizona-welcome-sign.jpg">
+    <meta property="og:url" content="https://jus95003.github.io/wdd230">
+    <meta name="twitter:card" content="summary_large_image">
+  </head>
+  <body>
+    <div class="content">
+      <header>
+        <picture class="personal-photo">
+          <img src="images/pro-photo.webp" alt="Ian O. Justice Photo">
+        </picture>
+        <h1 class="full-name">Ian O. Justice</h1>
+        <a id="menu" href="#" aria-label="hamburger menu"></a>
+      </header>
+      <nav>
+        <ul class="navigation">
+          <li><a href="index.html" class="current">Home</a></li>
+          <li><a href="chamber/siteplan.html">Site Plan</a></li>
+          <li><a href="chamber/">Chamber</a></li>
+          <li><a target="_blank" href="https://www.byui.edu">BYU-Idaho</a></li>
+          <li><a target="_blank" href="https://www.churchofjesuschrist.org/study/scriptures/bofm/mosiah/2?lang=eng#p41">Scripture</a></li>
+        </ul>
+      </nav> 
+      <main class="home-area">
+        <div class="form-div">
+            <h1>Rate My Site Form</h1>
+            <form method="get" action="record.html">
+            <fieldset>
+                <legend>User Information</legend>
+                <div id="formMessage"></div>
+                <label class="top">Username* <input type="text" name="username" id="username" required></label>
+                <label class="top">Password* <input type="password" name="password1" id="pwd1" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}" required></label>
+                <label class="top">Repeat Password* <input type="password" name="password2" id="pwd2" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}" required></label>
+                <label class="top">Email* <input type="email" name="email" placeholder="someone@byui.edu" id="email" pattern="[a-zA-Z0-9._%+-]+@byui\.edu$" title="Please enter a valid email address." required></label>
+            </fieldset>
+            <fieldset>
+                <legend>Page Rating</legend>
+                <div id="rangeValue">1</div>
+                <input type="range" name="rating" id="rating" min="1" max="10" value="1" step="1" list="rangeValues">
+                <datalist id="rangeValues">
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5</option>
+                <option value="6">6</option>
+                <option value="7">7</option>
+                <option value="8">8</option>
+                <option value="9">9</option>
+                <option value="10">10</option>
+                </datalist>
+            </fieldset>
+            <input type="submit" value="Rate My Site"  class="submitBtn">
+            </form>
+        </div>
+      </main>
+      <footer>
+        <p class="footer-paragraph-1">
+          &copy; <span id="currentyear"></span> | Ian O. Justice | Arizona
+        </p>
+        <picture>
+          <img src="images/arizona-flag-small.png" alt="Arizona State Flag">
+        </picture>
+        <p class="footer-paragraph-2">
+          Last Updated: <span id="last-modified"></span>
+        </p>
+      </footer>
+    </div>
+    <script src="scripts/getdates.js" defer></script>
+    <script src="scripts/hamburger.js" defer></script>
+    <script src="scripts/passwords.js" defer></script>
+    <script src="scripts/range.js" defer></script>
+  </body>
+</html>
