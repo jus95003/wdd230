@@ -367,7 +367,7 @@
     .form-div {
       display: grid;
       grid-template-columns: 1fr 1fr;
-      grid-template-rows: 112px auto 100 px auto;
+      grid-template-rows: 112px auto 100px auto;
     }
 
     .form-div h1 {
