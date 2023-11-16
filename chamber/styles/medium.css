@@ -12,6 +12,9 @@
     --outline-color: black;
     --shadow-color: grey;
     --cta-bg-color: rgba(12, 41, 159, 0.7);
+    --zebra-color: hsl(0, 0%, 89%, 1);
+    --table-border: hsla(0,0%,33%,.3);
+    --form-border: #0C299F;
   }
 
   [data-theme="dark"] {
@@ -26,6 +29,9 @@
     --outline-color: black;
     --shadow-color: grey;
     --cta-bg-color: rgba(6, 20, 76, 0.7);
+    --zebra-color: #201F1D;
+    --table-border: #E5E4E2;
+    --form-border: #E5E4E2;
   }
 
   .theme-switch-wrapper {

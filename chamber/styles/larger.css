@@ -12,6 +12,9 @@
     --outline-color: black;
     --shadow-color: grey;
     --cta-bg-color: rgba(12, 41, 159, 0.7);
+    --zebra-color: hsl(0, 0%, 89%, 1);
+    --table-border: hsla(0,0%,33%,.3);
+    --form-border: #0C299F;
   }
 
   [data-theme="dark"] {
@@ -26,6 +29,9 @@
     --outline-color: black;
     --shadow-color: grey;
     --cta-bg-color: rgba(6, 20, 76, 0.7);
+    --zebra-color: #201F1D;
+    --table-border: #E5E4E2;
+    --form-border: #E5E4E2;
   }
 
     body {
@@ -357,7 +363,47 @@
       grid-column: 3 / 4;
       grid-row: 2 / 3;
     }
+
+    .form-div {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      grid-template-rows: 112px auto 100 px auto;
+    }
+
+    .form-div h1 {
+      grid-row: 1 / 2;
+      grid-column: 1 / 3;
+      color: var(--card-text-color);
+      font-size: 3rem;
+      align-self: center;
+      height: 48px;
+    }
+
+    .form-div table {
+      grid-row: 2 / 3;
+      grid-column: 1 / 3;
+      margin: 0 1rem 1rem 1rem;
+    }
+
+    .form-div h2 {
+      grid-row: 3 / 4;
+      grid-column: 1 / 3;
+      font-size: 2.5rem;
+    }
+
+    .memberships {
+      margin: 2rem auto;
+    }
+
+    .form-div form {
+      grid-row: 4 / 5;
+      grid-column: 2 / 3;
+    }
     
+    th {
+      padding: 1rem;
+    }
+
     .upper-footer {
       display: grid;
       grid-template-columns: 1fr 1fr 1fr;
