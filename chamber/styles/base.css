@@ -485,7 +485,8 @@ tr th:first-child {
   }
 
   .blank {
-    color: var(--secondary-color)
+    background-color: var(--secondary-color);
+    border: none;
   }
 
 th, td {
@@ -599,8 +600,7 @@ form label.top input {
 }
 
 .date-time {
-  font-size: 1px;
-  color: var(--main-bg-color);
+  display: none;
 }
 
 .textarea {
@@ -627,7 +627,7 @@ form input.submitBtn {
   padding: .75rem 1.5rem;
   display: flex;
   width: 22rem;
-  margin: 0 auto 1rem auto;
+  margin: 2rem auto 1rem auto;
 }
 
 .thankyou {
