@@ -459,7 +459,7 @@ iframe {
 
 table {
   margin: 10px;
-  border: thin solid hsla(0,0%,20%,.8);
+  border: 1px solid var(--table-border);
   box-shadow: 0 0 10px hsl(0,0%,50%);
   border-collapse: collapse;
 }
@@ -482,6 +482,10 @@ tr:first-child th {
 tr th:first-child {
     background-color: var(--secondary-color);
     border: none;
+  }
+
+  .blank {
+    color: var(--secondary-color)
   }
 
 th, td {
@@ -592,6 +596,15 @@ form label.top input {
   width: 100%;
   max-width: 20rem;
   background-color: hsl(0, 0%, 89%, 1);
+}
+
+.date-time {
+  font-size: 1px;
+  color: var(--main-bg-color);
+}
+
+.textarea {
+  font-size: 1.1rem;
 }
 
 form label.sbs {
