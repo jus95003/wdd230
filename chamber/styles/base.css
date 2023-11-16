@@ -617,8 +617,8 @@ form label.sbs {
   background-color: hsl(0, 0%, 89%, 1);
 }
 
-form input.submitBtn {
-  border: 1px solid var(--form-border);;
+form button.submitBtn {
+  border: 1px solid var(--form-border);
   font-size: 1.8rem;
   font-weight: 700;
   background-color: var(--secondary-color);
@@ -628,6 +628,7 @@ form input.submitBtn {
   display: flex;
   width: 22rem;
   margin: 2rem auto 1rem auto;
+  justify-content: center;
 }
 
 .thankyou {
