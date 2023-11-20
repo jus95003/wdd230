@@ -6,8 +6,7 @@
         "phone" : "800-786-1000",
         "website" : "https://www.in-n-out.com/",
         "imageurl" : "https://tiermaker.com/images/chart/chart/every-us-restaurant-chain-474316/357685324jpg.png",
-        "membership" : "Gold",
-        "info" : "Open: 10:30AM to 1:00AM Daily"
+        "membership" : "Gold"
       },
       {
         "name" : "Harbor Freight Tools",
@@ -15,8 +14,7 @@
         "phone" : "480-506-0888",
         "website" : "https://www.harborfreight.com/",
         "imageurl" : "https://rm-core-production.s3.amazonaws.com/logos/11833/large_HF_Logo_Stacked_RGB_Red_Mod2021v2.jpg",
-        "membership" : "Gold",
-        "info" : "Open: 8AM to 8PM Except Sunday"
+        "membership" : "Gold"
       },
       {
         "name" : "Trader Joe's",
@@ -24,8 +22,7 @@
         "phone" : "480-877-7213",
         "website" : "https://www.traderjoes.com/",
         "imageurl" : "https://pbs.twimg.com/profile_images/539492283356151808/GQDNOJ-u_400x400.png",
-        "membership" : "Gold",
-        "info" : "Open: 8AM to 9PM Every Day"
+        "membership" : "Gold"
       },
       {
         "name" : "EōS Fitness",
@@ -33,8 +30,7 @@
         "phone" : "480-863-1390",
         "website" : "https://eosfitness.com/",
         "imageurl" : "https://is1-ssl.mzstatic.com/image/thumb/Purple126/v4/50/8c/d2/508cd207-133b-b12a-01aa-326acc49b0df/AppIcon-1x_U007emarketing-0-7-0-85-220.png/256x256bb.jpg",
-        "membership" : "Silver",
-        "info" : "Open: 24 Hours"
+        "membership" : "Silver"
       },
       {
         "name" : "Schnepf Farms",
@@ -42,8 +38,7 @@
         "phone" : "480-987-3100",
         "website" : "https://schnepffarms.com/",
         "imageurl" : "https://ticketleap-usr-master.s3.amazonaws.com/Organization-Logo/17917918-2fd8-11e4-abe3-22000b0e9c45/2022-08-10-09-28-46.jpg",
-        "membership" : "Silver",
-        "info" : "Open: Thur-Sun, 8AM to 4PM"
+        "membership" : "Silver"
       },
       {
         "name" : "Queen Creek Olive Mill",
@@ -51,8 +46,7 @@
         "phone" : "480-888-9290",
         "website" : "https://www.queencreekolivemill.com/",
         "imageurl" : "https://d2q79iu7y748jz.cloudfront.net/s/_squarelogo/256x256/e52b33bd701ebcb582079c3b5956d632",
-        "membership" : "Silver",
-        "info" : "Check site for hours"
+        "membership" : "Silver"
       },
       {
         "name" : "Bahama Buck's",
@@ -60,8 +54,7 @@
         "phone" : "480-828-3680",
         "website" : "https://bahamabucks.com/",
         "imageurl" : "https://images.crunchbase.com/image/upload/c_lpad,h_256,w_256,f_auto,q_auto:eco,dpr_1/bva9hryrxvgosinfvwfi",
-        "membership" : "Bronze",
-        "info" : "Check site for hours"
+        "membership" : "Bronze"
       },
       {
         "name" : "Old Ellsworth Brewing Co",
@@ -69,8 +62,7 @@
         "phone" : "480-935-2796",
         "website" : "https://www.oldellsworthbrewing.com/",
         "imageurl" : "https://cdn.dribbble.com/users/255443/screenshots/16002159/media/866d344b7a5d01c13c0d21ca398b6aa2.jpg?resize=300x300&vertical=center",
-        "membership" : "Bronze",
-        "info" : "Check site for hours"
+        "membership" : "Bronze"
       },
       {
         "name" : "Raise Your Hands Inc",
@@ -78,8 +70,7 @@
         "phone" : "480-326-5069",
         "website" : "https://www.raiseyourhandsinc.com/",
         "imageurl" : "https://static.wixstatic.com/media/317dd7_1d962979a71c47beaee4867dc7464e71~mv2.png/v1/fit/w_500,h_500,q_90/file.png",
-        "membership" : "NP",
-        "info" : "Raiseyourhandsinc@gmail.com"
+        "membership" : "NP"
       }
     ]
 }
