@@ -1,0 +1,109 @@
+<!doctype html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Ian O. Justice - WDD 230 - Chamber of Commerce Site</title>
+    <meta
+      name="description"
+      content="Chamber of Commerce Site for Ian O. Justice in WDD 230 - Web Frontend Development at Brigham Young University - Idaho"
+    >
+    <meta name="author" content="Ian O. Justice">
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/base.css">
+    <link rel="stylesheet" href="styles/medium.css">
+    <link rel="stylesheet" href="styles/larger.css">
+    <link rel="icon" href="favicon.ico">
+    <meta property="og:title" content="Ian O. Justice - WDD 230 - Chamber of Commerce Site">
+    <meta property="og:type" content="website">
+    <meta property="og:image" content="https://worldofarizona.com/wp-content/uploads/2019/09/queen-creek-arizona-welcome-sign.jpg">
+    <meta property="og:url" content="https://jus95003.github.io/wdd230/chamber/index.html">
+    <meta name="twitter:card" content="summary_large_image">
+  </head>
+  <body>
+    <div class="content">
+      <header>
+        <h1 class="page-name-1">Queen Creek</h1>
+        <h2 class="page-name-2">Chamber of Commerce</h2>
+        <picture class="city-logo-header">
+          <img src="images/queen-creek-logo.webp" alt="Queen Creek Logo">
+        </picture>
+        <div class="social">
+          <div class="social-1">
+            <a target="_blank" href="https://facebook.com">
+              <img src="images/facebook.png" alt="Facebook"></a>
+          </div>
+          <div class="social-2">
+            <a target="_blank" href="https://www.youtube.com">
+              <img src="images/youtube.png" alt="YouTube"></a>
+          </div>
+          <div class="social-3">
+            <a target="_blank" href="https://twitter.com">
+              <img src="images/twitter.png" alt="Twitter"></a>
+          </div>
+        </div>
+        <div class="theme-switch-wrapper">
+          <label class="theme-switch" for="checkbox" aria-label="dark mode">
+              <input type="checkbox" id="checkbox">
+              <span class="slider round"></span>
+          </label>
+        </div>
+        <a id="menu" href="#" aria-label="hamburger menu"></a>
+      </header>
+      <nav>
+        <ul class="navigation">
+          <li><a href="index.html" class="current">Home</a></li>
+          <li><a href="discover.html">Discover</a></li>
+          <li><a href="directory.html">Directory</a></li>
+          <li><a href="join.html">Join</a></li>
+        </ul>
+      </nav> 
+      <main class="home-area">
+        <h1>Chamber Members Directory</h1>
+        <div class="menu">
+            <button id="grid">Grid View</button>
+            <button id="list">List View</button>
+        </div>
+        <div class="cards"></div>
+      </main>
+      <footer>
+        <div class="upper-footer">
+          <picture class="city-logo">
+            <img src="images/queen-creek-logo.webp" alt="Queen Creek Logo">
+          </picture>
+          <div class="coc-address">
+            <p class="ufp1">Queen Creek</p>
+            <p class="ufp2">Chamber of Commerce</p>
+            <p class="ufp3">12345 Main St.</p>
+            <p class="ufp4">Queen Creek, AZ 85142</p>
+          </div>
+          <div class="coc-contact">
+            <p class="ufp5">info@qcchamber.org</p>
+            <p class="ufp6">(480) 555-1234</p>
+            <p class="ufp7">Location Map</p>
+          </div>
+        </div>
+        <div class="lower-footer">
+          <p class="footer-paragraph-1">
+            &copy; <span id="currentyear"></span> QC Chamber of Commerce
+          </p>
+          <p class="footer-paragraph-2">Ian O. Justice</p>
+          <p class="footer-paragraph-3">WDD230 Chamber Project</p>
+          <p class="footer-paragraph-4">
+            Last Updated: <span id="last-modified"></span>
+          </p>
+        </div>
+        <div class="lower-footer-version-2">
+          <p class="lfv2-paragraph">
+            &copy; <span id="currentyear2"></span> QC Chamber of Commerce&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;Ian O. Justice&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;WDD230 Chamber Project&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;Last Updated: <span id="last-modified2"></span>
+          </p>
+        </div>
+      </footer>
+    </div>
+    <script src="scripts/getdates.js" defer></script>
+    <script src="scripts/hamburger.js" defer></script>
+    <script src="scripts/darkmode.js" defer></script>
+    <script src="scripts/windchill.js" defer></script>
+    <script src="scripts/members.js" defer></script>
+  </body>
+</html>

@@ -275,5 +275,20 @@
     grid-row: 2 / 3;
     align-self: center;
   }
+
+  .grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+  }
+
+  .list section {
+    display: grid;
+    grid-template-columns: 300px 365px 135px;
+    grid-template-rows: 30px 30px;
+    border-radius: 0;
+    box-shadow: 0 0 0;
+    margin: 0;
+    border: none;
+  }
   
 }

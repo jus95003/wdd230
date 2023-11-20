@@ -212,7 +212,7 @@
     .discover {
       display: grid;
       grid-template-columns: 424px 624px;
-      grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+      grid-template-rows: repeat(7, 1fr);
       justify-items: center;
       align-items: center;
       padding-bottom: 10px;
@@ -402,6 +402,26 @@
     
     th {
       padding: 1rem;
+    }
+
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+    }
+
+    .grid section p {
+      margin: 0 auto;
+      text-align: center;
+    } 
+    
+    .list section {
+      display: grid;
+      grid-template-columns: 215px 193px 120px 295px 225px;
+      grid-template-rows: none;
+      border-radius: 0;
+      box-shadow: 0 0 0;
+      margin: 0;
+      border: none;
     }
 
     .upper-footer {
