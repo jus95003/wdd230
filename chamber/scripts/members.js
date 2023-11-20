@@ -48,6 +48,11 @@ async function getMemberData() {
   const gridbutton = document.querySelector("#grid");
   const listbutton = document.querySelector("#list");
   const display = document.querySelector(".cards");
+
+  window.addEventListener("load", () => {
+    display.classList.add("grid");
+    display.classList.remove("list");
+  });
   
   gridbutton.addEventListener("click", () => {
     display.classList.add("grid");
