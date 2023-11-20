@@ -5,7 +5,7 @@
         "address" : "20545 E Rittenhouse Rd, Queen Creek, AZ 85142",
         "phone" : "800-786-1000",
         "website" : "https://www.in-n-out.com/",
-        "imageurl" : "https://tiermaker.com/images/chart/chart/every-us-restaurant-chain-474316/357685324jpg.png",
+        "imageurl" : "images/in-n-out.webp",
         "membership" : "Gold"
       },
       {
@@ -13,7 +13,7 @@
         "address" : "21244 E Ocotillo Rd, Queen Creek, AZ 85142",
         "phone" : "480-506-0888",
         "website" : "https://www.harborfreight.com/",
-        "imageurl" : "https://rm-core-production.s3.amazonaws.com/logos/11833/large_HF_Logo_Stacked_RGB_Red_Mod2021v2.jpg",
+        "imageurl" : "images/hf_logo.webp",
         "membership" : "Gold"
       },
       {
@@ -21,7 +21,7 @@
         "address" : "21186 S Ellsworth Lp Rd, Queen Creek, AZ 85142",
         "phone" : "480-877-7213",
         "website" : "https://www.traderjoes.com/",
-        "imageurl" : "https://pbs.twimg.com/profile_images/539492283356151808/GQDNOJ-u_400x400.png",
+        "imageurl" : "images/trader_joes.webp",
         "membership" : "Gold"
       },
       {
@@ -29,7 +29,7 @@
         "address" : "20722 E Riggs Rd, Queen Creek, AZ 85142",
         "phone" : "480-863-1390",
         "website" : "https://eosfitness.com/",
-        "imageurl" : "https://is1-ssl.mzstatic.com/image/thumb/Purple126/v4/50/8c/d2/508cd207-133b-b12a-01aa-326acc49b0df/AppIcon-1x_U007emarketing-0-7-0-85-220.png/256x256bb.jpg",
+        "imageurl" : "images/eos_fitness.webp",
         "membership" : "Silver"
       },
       {
@@ -37,7 +37,7 @@
         "address" : "24810 S Rittenhouse Rd, Queen Creek, AZ 85142",
         "phone" : "480-987-3100",
         "website" : "https://schnepffarms.com/",
-        "imageurl" : "https://ticketleap-usr-master.s3.amazonaws.com/Organization-Logo/17917918-2fd8-11e4-abe3-22000b0e9c45/2022-08-10-09-28-46.jpg",
+        "imageurl" : "images/schnepf_farms_logo.webp",
         "membership" : "Silver"
       },
       {
@@ -45,7 +45,7 @@
         "address" : "25062 S Meridian Rd, Queen Creek, AZ 85142",
         "phone" : "480-888-9290",
         "website" : "https://www.queencreekolivemill.com/",
-        "imageurl" : "https://d2q79iu7y748jz.cloudfront.net/s/_squarelogo/256x256/e52b33bd701ebcb582079c3b5956d632",
+        "imageurl" : "images/qc_olive_mill.webp",
         "membership" : "Silver"
       },
       {
@@ -53,7 +53,7 @@
         "address" : "21137 E Rittenhouse Rd, Queen Creek, AZ 85142",
         "phone" : "480-828-3680",
         "website" : "https://bahamabucks.com/",
-        "imageurl" : "https://images.crunchbase.com/image/upload/c_lpad,h_256,w_256,f_auto,q_auto:eco,dpr_1/bva9hryrxvgosinfvwfi",
+        "imageurl" : "images/bahama_bucks.webp",
         "membership" : "Bronze"
       },
       {
@@ -61,7 +61,7 @@
         "address" : "22005 S Ellsworth Rd, Queen Creek, AZ 85142",
         "phone" : "480-935-2796",
         "website" : "https://www.oldellsworthbrewing.com/",
-        "imageurl" : "https://cdn.dribbble.com/users/255443/screenshots/16002159/media/866d344b7a5d01c13c0d21ca398b6aa2.jpg?resize=300x300&vertical=center",
+        "imageurl" : "images/old_ellsworth.webp",
         "membership" : "Bronze"
       },
       {
@@ -69,7 +69,7 @@
         "address" : "21037 E Camacho Rd, Queen Creek, AZ 85142",
         "phone" : "480-326-5069",
         "website" : "https://www.raiseyourhandsinc.com/",
-        "imageurl" : "https://static.wixstatic.com/media/317dd7_1d962979a71c47beaee4867dc7464e71~mv2.png/v1/fit/w_500,h_500,q_90/file.png",
+        "imageurl" : "images/raise_your_hands.webp",
         "membership" : "NP"
       }
     ]
