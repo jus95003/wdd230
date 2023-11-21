@@ -1,7 +1,7 @@
 h1 {
     text-align: center;
     color: darkgreen;
-    text-shadow: 1px 1px 0 #000000, -1px 1px 0 #000000, -1px -1px 0 #000000, 1px -1px 0 #000000;
+    text-shadow: 1px 1px 0 #636363, -1px 1px 0 #636363, -1px -1px 0 #636363, 1px -1px 0 #636363;
     font-size: 4rem;
     height: 10rem;
     line-height: 10rem;
