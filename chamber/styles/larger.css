@@ -35,7 +35,6 @@
   }
 
     body {
-      max-width: 1058px;
       margin: 0 auto;
     }
     
@@ -142,7 +141,7 @@
     
     nav ul {
       display: flex;
-      padding: 10px;
+
       margin: 0;
     }
   
@@ -164,33 +163,29 @@
       background-color: var(--main-bg-color);
     }
 
-    .call-to-action-large {
+
+    .hero{
+      width: 1058px;
+      margin: auto;
+    }
+
+    .call-to-action {
       display: block;
       font-size: 2rem;
       position: absolute;
-      width: 240px;
-      height: 95px;
-      top: 7%;
-      left: 72%;
-      transform: translate(0, 0);
+      width: 440px;
+      height: 70px;
+      top: 90%;
+      left: 50%;
+      transform: translate(-50%, -50%);
       padding: 0;
       background-color: var(--cta-bg-color);
     }
-    
-    .call-to-action-large p {
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      height: 95px;
-      margin: 0;
-    }
 
-    .call-to-action-small {
-      display: none;
-    }
-    
-    .call-to-action-medium {
-      display: none;
+    .call-to-action a {
+      width: 440px;
+      height: 70px;
+      line-height: 70px;
     }
     
     img {
@@ -199,13 +194,23 @@
       margin: 0 auto;
     }
 
+    .city-logo-header img {
+      width: 200px;
+      height: auto;
+      margin: 0 auto 0 1rem;
+      padding: 0;
+    }
+
+    .hero {
+      padding-top: 10px;
+    }
+
     .hover {
       margin-top: 0;
       margin-bottom: 0;
     }
     
     .city-photo {
-      padding-top: 1rem;
       max-width: 96%;
     }
 
@@ -217,6 +222,8 @@
       align-items: center;
       padding-bottom: 10px;
       padding-top: 10px;
+      width: 1058px;
+      margin: 0 auto;
     }
 
     .olive-frame {
@@ -326,8 +333,11 @@
 
     .card-box {
       display: grid;
-      grid-template-columns: 1fr 1fr 1fr;
+      grid-template-columns: 350px 350px 350px;
       grid-template-rows: 1fr 1fr;
+      width: 1050px;
+      padding: 10px 0 20px 0;
+      margin: 0 auto;
     }
 
     .card1,
@@ -368,6 +378,8 @@
       display: grid;
       grid-template-columns: 1fr 1fr;
       grid-template-rows: 112px auto 100px auto;
+      padding-bottom: 1rem;
+      width: 1058px;
     }
 
     .form-div h1 {

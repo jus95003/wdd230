@@ -8,7 +8,7 @@
     --font-style-color: #E5E4E2;
     --border-color: #636363;
     --font-color: white;
-    --main-bg-color: white;
+    --main-bg-color: #E5E4E2;
     --card-bg-color: #E5E4E2;
     --card-text-color: black;
     --outline-color: black;
@@ -17,6 +17,7 @@
     --zebra-color: hsl(0, 0%, 89%, 1);
     --table-border: hsla(0,0%,33%,.3);
     --form-border: #0C299F;
+    --list-zebra: white;
   }
 
   [data-theme="dark"] {
@@ -28,12 +29,13 @@
     --main-bg-color: #121212;
     --card-bg-color: #201F1D;
     --card-text-color: #E5E4E2;
-    --outline-color: black;
+    --outline-color: #E5E4E2;
     --shadow-color: grey;
     --cta-bg-color: rgba(6, 20, 76, 0.7);
     --zebra-color: #201F1D;
     --table-border: #E5E4E2;
     --form-border: #E5E4E2;
+    --list-zebra: #121212;
   }
 
   .theme-switch-wrapper {
@@ -103,6 +105,7 @@
   .card-box {
     display: grid;
     grid-template-columns: 1fr;
+    padding-bottom: 10px;
   }
 
   .card1,
@@ -117,7 +120,6 @@
 
 body {
   font-family: "Lato", "Arial", sans-serif;
-  background-color: var(--outline-color);
 }
 
 h1, h2 {
@@ -136,7 +138,6 @@ header {
   border: 5px solid var(--border-color);
   border-top-left-radius: 7px;
   border-top-right-radius: 7px;
-  margin-top: 5px;
 }
 
 .page-name-1 {
@@ -172,9 +173,9 @@ header {
   grid-column: 3 / 4;
 }
 
-.social-1,
-.social-2,
-.social-3 {
+.social-1 img,
+.social-2 img,
+.social-3 img {
   width: 48px;
   height: 48px;
   display: block;
@@ -208,9 +209,10 @@ nav {
   background-color: var(--secondary-color);
 }
 
-nav ul {
-  padding: 0;
+nav ul,
+navigation show {
   margin: 0;
+  padding: 0;
 }
 
 nav li {
@@ -223,7 +225,7 @@ nav a {
   display: block;
   font-size: 1.5em;
   font-family: "Merriweather Sans", sans-serif;
-  padding: 10px;
+  padding: 5px;
   text-align: center;
 }
 
@@ -266,40 +268,30 @@ main {
 .hero {
   position: relative;
   text-align: center;
-  color: var(--font-color);
-  font-size: 1.5rem;
+  padding-top: 10px;
 }
 
-.call-to-action-small {
+.call-to-action {
   position: absolute;
-  width: 220px;
-  top: 85%;
+  width: 250px;
+  top: 88%;
   left: 50%;
   transform: translate(-50%, -50%);
-  padding: 10px;
   background-color: var(--cta-bg-color);
-}
-
-.call-to-action-small p {
-  font-family: "Merriweather Sans", sans-serif;
-  margin: 0;
-}
-
-.call-to-action-medium {
-  display: none;
-}
-
-.call-to-action-large {
-  display: none;
+  font-weight: 700;
+  font-size: 1.2rem;
 }
 
 .call-to-action a {
-    font-family: "Merriweather Sans", sans-serif;
+  display: inline-block;
+  font-family: "Merriweather Sans", sans-serif;
+  color: var(--font-color);
+  width: 250px;
+  height: 40px;
+  line-height: 40px;
 }
 
-.call-to-action a:link,
-.call-to-action a:visited {
-  color: var(--font-color);
+.call-to-action a:link {
   text-decoration: none;
 }
 
@@ -308,12 +300,12 @@ main {
   color: var(--font-color);
 }
 
-img {
-  max-width: 95%;
-  max-height: 95%;
+.hero img {
   display: block;
-  margin-left: auto;
-  margin-right: auto;
+  margin: 0 auto;
+  width: 95%;
+  height: auto;
+  border: 2px solid black;
 }
   
 .card1,
@@ -322,8 +314,7 @@ img {
 .card4,
 .card5 {
   border: 2px solid var(--outline-color);
-  border-radius: 7px;
-  margin: 1rem;
+  margin: 10px 10px 0 10px;
   background-color: var(--card-bg-color);
   color: var(--card-text-color);
   box-shadow: 5px 5px 10px grey;
@@ -338,10 +329,8 @@ img {
   font-weight: bold;
   color: var(--font-color);
   background-color: var(--secondary-color);
-  border-top-left-radius: 5px;
-  border-top-right-radius: 5px;
   margin-top: 0;
-  text-shadow: 1px 1px 0 var(--outline-color), -1px 1px 0 var(--outline-color), -1px -1px 0 var(--outline-color), 1px -1px 0 var(--outline-color);
+  text-shadow: 1px 1px 0 black, -1px 1px 0 black, -1px -1px 0 black, 1px -1px 0 black;
 }
 
 section p {
@@ -517,7 +506,6 @@ tbody tr:nth-child(even) {
 .np {
   margin: 3rem auto 3rem auto;
   border: 1px solid var(--form-border);
-  border-radius: 10px;
   padding: .5rem 2%;
   width: 22rem;
   display: block;
@@ -566,7 +554,6 @@ form {
 form fieldset {
   margin: 1rem auto 1rem auto;
   border: 1px solid var(--form-border);
-  border-radius: 10px;
   padding: .5rem 2%;
   width: 22rem;
   display: block;
@@ -605,6 +592,7 @@ form label.top input {
 
 .textarea {
   font-size: 1.1rem;
+  color: var(card-text-color);
 }
 
 form label.sbs {
@@ -652,7 +640,6 @@ form button.submitBtn {
 .cards section,
 .grid section {
   border: 1px solid var(--card-text-color);
-  border-radius: 7px;
   margin: 0 5px 10px 5px;
   display: flex;
   flex-direction: column;
@@ -758,9 +745,9 @@ form button.submitBtn {
   padding-left: 15px;
 }
 
-.list section:nth-child(even), 
-.list section:nth-child(even) h2 {
-	background-color: var(--main-bg-color);
+.list section:nth-child(odd), 
+.list section:nth-child(odd) h2 {
+	background-color: var(--list-zebra);
 }
 
 footer {
@@ -785,11 +772,14 @@ footer {
 
 .upper-footer picture {
   grid-column: 1 / 2;
-  grid-row: 1 / 3;
+  grid-row: 1 / 2;
 }
 
 .city-logo img {
+  width: 95%;
+  height: auto;
   margin-right: 0%;
+  padding: 10px;
 }
 
 .coc-address {
