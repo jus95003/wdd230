@@ -213,6 +213,13 @@ form {
 .card p {
   text-align: center;
   font-size: 1.1em;
+  margin: 2rem auto 2rem auto;
+}
+
+.weather {
+  text-align: center;
+  font-size: 1.1em;
+  margin: 2rem auto 3rem auto;
 }
 
 .mobile-frame {
