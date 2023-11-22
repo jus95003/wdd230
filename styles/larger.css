@@ -3,8 +3,6 @@
 @media screen and (min-width: 551px) {
   
   .content {
-    max-width: 1000px;
-    margin: 0 auto;
     display: grid;
     grid-template-columns: repeat(5, 1fr);
     grid-template-rows: 305px 68px 1504px 162px;
@@ -16,7 +14,6 @@
     display: grid;
     grid-template-columns: repeat(5, 1fr);
     font-size: 1.5em;
-    margin-top: 5px;
   }
   
   header picture {
@@ -37,8 +34,8 @@
   
   nav ul {
     display: flex;
-    padding: 10px;
     margin: 0;
+
   }
 
   nav li {
@@ -48,6 +45,12 @@
   nav ul li {
     display: block;
     flex: 1 1 100%;
+    padding: 0;
+  }
+
+  nav a {
+    height: 63px;
+    line-height: 63px;
     padding: 0;
   }
 
@@ -82,6 +85,7 @@
     max-width: 100%;
     height: auto;
     border-top: 16px solid white;
+    margin-top: 0;
   }
 
   .herolabel {
@@ -146,6 +150,7 @@ iframe {
   width: 930px;
   height: 400px;
   border: 0;
+  margin-bottom: 1rem;
 }
 
   .large-frame {

@@ -2,13 +2,13 @@
 
 body {
   color: white;
-  background-color: black;
   font-family: "Lato", "Arial", sans-serif;
 }
 
 h1 {
   font-family: "Garamond", serif;
   text-align: center;
+  font-size: 2.4em;
 }
 
 h2 {
@@ -17,14 +17,12 @@ h2 {
 
 header {
   display: grid;
-  grid-template-columns: 33% 55% 12%;
+  grid-template-columns: 38% 50% 12%;
   align-items: center;
   text-shadow: 2px 2px 8px #000000;
   background-color: darkred;
   padding: 20px;
-  border: 5px solid white;
-  border-top-left-radius: 7px;
-  border-top-right-radius: 7px;
+  border: 4px solid black;
 }
 
 header picture {
@@ -34,7 +32,7 @@ header picture {
 header picture img {
   width: 200px;
   max-width: 100%;
-  border: 2px solid black;
+  border: 3px solid black;
 }
 
 .full-name {
@@ -59,8 +57,10 @@ header picture img {
 }
 
 nav {
-  border-left: 5px solid white;
-  border-right: 5px solid white;
+  border-left: 4px solid black;
+  border-right: 4px solid black;
+  border-bottom: 4px solid black;
+  background-color: #636363;
 }
 
 nav ul {
@@ -76,9 +76,9 @@ nav li {
 
 nav a {
   display: block;
-  font-size: 1.5em;
+  font-size: 1.6em;
   font-family: "Garamond", serif;
-  padding: 10px;
+  padding: 5px;
   text-align: center;
 }
 
@@ -117,6 +117,8 @@ main {
   grid-template-columns: 1fr 1fr;
   color: black;
   background-color: white;
+  border-left: 4px solid black;
+  border-right: 4px solid black;
 }
 
 .hero {
@@ -129,6 +131,7 @@ main {
   width: 400px;
   max-width: 100%;
   height: auto;
+  margin-top: 1rem;
 }
 
 .herolabel {
@@ -166,6 +169,10 @@ main {
 form {
   margin-left: auto;
   margin-right: auto;
+}
+
+ul li a {
+  color: black;
 }
 
 .card-box {
@@ -237,10 +244,8 @@ form {
 }
 
 footer {
-  border: 5px solid white;
+  border: 4px solid black;
   background-color: darkred;
-  border-bottom-left-radius: 7px;
-  border-bottom-right-radius: 7px;
 }
 
 footer p::before {
