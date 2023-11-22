@@ -31,15 +31,15 @@
         <div class="social">
           <div class="social-1">
             <a target="_blank" href="https://facebook.com">
-              <img src="images/facebook.png" alt="Facebook"></a>
+              <img src="images/facebook.webp" alt="Facebook"></a>
           </div>
           <div class="social-2">
             <a target="_blank" href="https://www.youtube.com">
-              <img src="images/youtube.png" alt="YouTube"></a>
+              <img src="images/youtube.webp" alt="YouTube"></a>
           </div>
           <div class="social-3">
             <a target="_blank" href="https://twitter.com">
-              <img src="images/twitter.png" alt="Twitter"></a>
+              <img src="images/twitter.webp" alt="Twitter"></a>
           </div>
         </div>
         <div class="theme-switch-wrapper">
@@ -76,27 +76,30 @@
           </section>
           <section class="card2">
             <h3 class="card-headline">Weather</h3>
-            <p>Current Temperature:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span id="current-temp">25</span>&#8457;</p>
-            <p>Current Wind Speed:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span id="current-wind">35</span> mph</p>
-            <p>Current Windchill:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span id="current-chill"></span></p>
+            <div class="weather-div">
+              <p>Current Conditions:</p>
+              <figure class="weather">
+                <img id="weather-icon" src="data:," alt="">
+                <figcaption></figcaption>
+              </figure>
+              <p>Humidity:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span id="humidity"></span>%</p>
+              <p>Wind Speed:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span id="windSpeed"></span> mph</p>
+              <p>Windchill:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span id="windchill"></span></p>
+              <p>Sunrise:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span id="sunrise"></span> AM</p>
+              <p>Sunset:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span id="sunset"></span> PM</p>
+            </div>
           </section>
           <section class="card3">
-            <h3 class="card-headline">Member #1 Info</h3>
-            <p>Yada...</p>
-            <p>Yada...</p>
-            <p>Yada...</p>
+            <h3 class="card-headline">Gold Member Spotlight</h3>
+            <div id="spotlight-1"></div>
           </section>
           <section class="card4">
-            <h3 class="card-headline">Member #2 Info</h3>
-            <p>Yada...</p>
-            <p>Yada...</p>
-            <p>Yada...</p>
+            <h3 class="card-headline">Silver Member Spotlight</h3>
+            <div id="spotlight-2"></div>
           </section>
           <section class="card5">
-            <h3 class="card-headline">Member #3 Info</h3>
-            <p>Yada...</p>
-            <p>Yada...</p>
-            <p>Yada...</p>
+            <h3 class="card-headline">Bronze/NP Member Spotlight</h3>
+            <div id="spotlight-3"></div>
           </section>
         </div>
       </main>
@@ -137,6 +140,7 @@
     <script src="scripts/getdates.js" defer></script>
     <script src="scripts/hamburger.js" defer></script>
     <script src="scripts/darkmode.js" defer></script>
-    <script src="scripts/windchill.js" defer></script>
+    <script src="scripts/weather.js" defer></script>
+    <script src="scripts/spotlights.js" defer></script>
   </body>
 </html>

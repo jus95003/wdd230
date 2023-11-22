@@ -1,21 +1,28 @@
-const url = 'data/members.json';
+const file = 'data/members.json';
 
-const cards = document.querySelector('.cards');
+const sp1 = document.querySelector('#spotlight-1');
+const sp2 = document.querySelector('#spotlight-2');
+const sp3 = document.querySelector('#spotlight-3');
 
 async function getMemberData() {
-    const response = await fetch(url);
+    const response = await fetch(file);
     const data = await response.json();
     displayMembers(data.members);
-}
+  }
   
-getMemberData();
-
-const displayMembers = (members) => {
-  members.forEach((member) => {
-    const card = createCard(member);
-    cards.appendChild(card);
-  });
-}
+  getMemberData();
+  
+  function displayMembers(members) {
+    const first = Math.round(Math.random() * 2);
+    const spot1 = createCard(members[first]);
+    sp1.appendChild(spot1);
+    const second = Math.round(Math.random() * 2) + 3;
+    const spot2 = createCard(members[second]);
+    sp2.appendChild(spot2);
+    const third = Math.round(Math.random() * 2) + 6;
+    const spot3 = createCard(members[third]);
+    sp3.appendChild(spot3);
+  }
 
 function createCard(member) {
 
@@ -49,25 +56,4 @@ function createCard(member) {
     card.appendChild(membership);
 
     return card;
-}
-
-const gridbutton = document.querySelector("#grid");
-const listbutton = document.querySelector("#list");
-const display = document.querySelector(".cards");
-
-window.addEventListener("load", () => {
-  display.classList.add("grid");
-  display.classList.remove("list");
-});
-
-gridbutton.addEventListener("click", () => {
-  display.classList.add("grid");
-  display.classList.remove("list");
-});
-
-listbutton.addEventListener("click", showList);
-
-function showList() {
-  display.classList.add("list");
-  display.classList.remove("grid");
 }

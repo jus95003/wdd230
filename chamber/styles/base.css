@@ -79,7 +79,7 @@
   }
   
   input:checked + .slider {
-    background-color: #66BB6A;
+    background-color: #201F1D;
   }
   
   input:checked + .slider:before {
@@ -136,8 +136,6 @@ header {
   color: var(--font-style-color);
   background-color: var(--primary-color);
   border: 5px solid var(--border-color);
-  border-top-left-radius: 7px;
-  border-top-right-radius: 7px;
 }
 
 .page-name-1 {
@@ -236,7 +234,7 @@ nav a:link {
 }
 
 nav a:visited {
-  color: #66bb6a;
+  color: #E5E4E2;
 }
 
 nav a:hover {
@@ -329,18 +327,28 @@ main {
   font-weight: bold;
   color: var(--font-color);
   background-color: var(--secondary-color);
-  margin-top: 0;
+  margin: 0 auto 1rem auto;
   text-shadow: 1px 1px 0 black, -1px 1px 0 black, -1px -1px 0 black, 1px -1px 0 black;
 }
 
 section p {
   font-size: 1.2em;
-  padding-left: 20px;
-  padding-right: 20px;
+  padding: 0 20px;
+  margin: 10px 0;
 }
 
 .card2 p {
   text-align: center;
+}
+
+.weather-div {
+  padding-bottom: 10px;
+}
+
+.weather {
+  text-align: center;
+  font-size: 1.2em;
+  margin: 10px auto 10px auto;
 }
 
 .discover {
@@ -349,6 +357,8 @@ section p {
 
 .hover {
   padding: 10px;
+  max-width: 95%;
+  height: auto;
 }
 
 .olive-mill-div,
@@ -658,15 +668,16 @@ form button.submitBtn {
   font-weight: bold;
   color: var(--card-text-color);
   background-color: var(--zebra-color);
-  border-top-left-radius: 5px;
-  border-top-right-radius: 5px;
   margin: 0;
 }
 
+#spotlight-1 section p,
+#spotlight-2 section p,
+#spotlight-3 section p,
 .cards section p,
 .grid section p {
     color: var(--card-text-color);
-    margin: 5px;
+    margin: 5px auto;
     padding: 0 0 0 8px;
 }
 
@@ -676,16 +687,24 @@ form button.submitBtn {
     background-color: var(--zebra-color);
 }
 
+#spotlight-1 section a,
+#spotlight-2 section a,
+#spotlight-3 section a,
 .cards section a,
 .grid section a {
   font-size: 1.2em;
   color: var(--card-text-color);
+  margin: 5px 0;
 }
 
+#spotlight-1 section p.address,
+#spotlight-2 section p.address,
+#spotlight-3 section p.address,
 .cards section p.address,
 .grid section p.address {
   width: 210px;
   text-align: center;
+  margin: 5px auto;
 }
 
 .menu {
@@ -716,7 +735,7 @@ form button.submitBtn {
 }
 
 .list section h2 {
-  font-size: large;
+  font-size: 1.2em;
   text-align: left;
   padding-left: 8px;
   margin: 0 5px;
@@ -728,11 +747,16 @@ form button.submitBtn {
 
 .list section p {
   font-size: 1em;
+  text-align: left;
+  margin: 10px 0;
+  padding: 0 0 0 13px;
 }
 
 .list section p.address {
   width: auto;
   text-align: left;
+  margin: 10px 0;
+  padding: 0 0 0 13px;
 }
 
 .list section img {
@@ -745,16 +769,37 @@ form button.submitBtn {
   padding-left: 15px;
 }
 
-.list section:nth-child(odd), 
-.list section:nth-child(odd) h2 {
+.list section:nth-child(even), 
+.list section:nth-child(even) h2 {
 	background-color: var(--list-zebra);
+}
+
+#spotlight-1 section,
+#spotlight-2 section,
+#spotlight-3 section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 1rem 0;
+}
+
+#spotlight-1 section img,
+#spotlight-2 section img,
+#spotlight-3 section img {
+  margin: 0 auto 1rem auto;
+}
+
+#spotlight-1 section h2,
+#spotlight-2 section h2,
+#spotlight-3 section h2 {
+  height: 3rem;
+  line-height: 3rem;
+  font-size: 1.8em;
 }
 
 footer {
   border: 5px solid var(--border-color);
   background-color: var(--primary-color);
-  border-bottom-left-radius: 7px;
-  border-bottom-right-radius: 7px;
   padding: 1rem;
   color: var(--font-color);
   text-align: center;

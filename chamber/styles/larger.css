@@ -87,44 +87,6 @@
       display:none;
     }
     
-    .slider {
-      background-color: white;
-      bottom: 0;
-      cursor: pointer;
-      left: 0;
-      position: absolute;
-      right: 0;
-      top: 0;
-      transition: .4s;
-    }
-    
-    .slider:before {
-      background-color: #636363;
-      bottom: 4px;
-      content: "";
-      height: 26px;
-      left: 4px;
-      position: absolute;
-      transition: .4s;
-      width: 26px;
-    }
-    
-    input:checked + .slider {
-      background-color: #66BB6A;
-    }
-    
-    input:checked + .slider:before {
-      transform: translateX(26px);
-    }
-    
-    .slider.round {
-      border-radius: 34px;
-    }
-    
-    .slider.round:before {
-      border-radius: 50%;
-    }
-
     .social {
       display: flex;
       flex-direction: row;
@@ -165,8 +127,13 @@
 
 
     .hero{
-      width: 1058px;
+      width: 1000px;
       margin: auto;
+    }
+
+    .hero img {
+      width: 100%;
+      height: auto;
     }
 
     .call-to-action {
@@ -333,9 +300,9 @@
 
     .card-box {
       display: grid;
-      grid-template-columns: 350px 350px 350px;
+      grid-template-columns: 370px 370px 370px;
       grid-template-rows: 1fr 1fr;
-      width: 1050px;
+      width: 1110px;
       padding: 10px 0 20px 0;
       margin: 0 auto;
     }
@@ -380,6 +347,7 @@
       grid-template-rows: 112px auto 100px auto;
       padding-bottom: 1rem;
       width: 1058px;
+      margin: 0 auto;
     }
 
     .form-div h1 {
@@ -418,22 +386,36 @@
 
     .grid {
       display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+      grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
     }
 
-    .grid section p {
+    .list {
+      width: 1200px;
       margin: 0 auto;
-      text-align: center;
-    } 
+      padding-bottom: 1rem;
+    }
     
     .list section {
       display: grid;
-      grid-template-columns: 215px 193px 120px 295px 225px;
+      grid-template-columns: 255px 215px 135px 325px 240px;
       grid-template-rows: none;
       border-radius: 0;
       box-shadow: 0 0 0;
-      margin: 0;
+      padding: 0 15px;
       border: none;
+    }
+
+    .list section p,
+    .list section a {
+      font-size: 1.1em;
+    }
+
+    .list section h2 {
+      font-size: 1.3em;
+    }
+
+    footer {
+      font-size: 1.3em;
     }
 
     .upper-footer {
@@ -471,6 +453,5 @@
       text-align: center;
       padding-top: 1rem;
     }
-    
+ 
   }
-  
