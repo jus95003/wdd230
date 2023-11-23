@@ -662,7 +662,7 @@ form label.top input {
 form label.sbs {
   display: block;
   padding: .75rem 0;
-  color: var(--card-text-color);;
+  color: var(--card-text-color);
 }
 
 #description {
