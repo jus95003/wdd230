@@ -638,7 +638,6 @@ form label.top, form div {
 }
 
 form label.top input {
-  -webkit-appearance: none;
   display: block;
   font-size: 1rem;
   border: solid 1px #999;
