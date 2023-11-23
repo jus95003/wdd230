@@ -340,11 +340,16 @@ main {
 }
 
 .card1-p1,
-.card1-p2 {
-  border-bottom: 2px solid var(--card-text-color);
+.card1-p2,
+.card1-p3 {
   padding: 0;
   margin: 10px 20px;
   padding-bottom: 1rem;
+}
+
+.card1-p1,
+.card1-p2 {
+  border-bottom: 2px solid var(--card-text-color);
 }
 
 .card-headline {
