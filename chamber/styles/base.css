@@ -108,14 +108,6 @@
     padding-bottom: 10px;
   }
 
-  .card1,
-  .card2,
-  .card3,
-  .card4,
-  .card5 {
-    grid-column: 1 / 2;
-  }
-
 }
 
 body {
@@ -334,11 +326,25 @@ main {
 .card3,
 .card4,
 .card5 {
+  grid-column: 1 / 2;
   border: 2px solid var(--outline-color);
   margin: 10px 10px 0 10px;
   background-color: var(--card-bg-color);
   color: var(--card-text-color);
   box-shadow: 5px 5px 10px grey;
+}
+
+.card1 p::first-letter {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.card1-p1,
+.card1-p2 {
+  border-bottom: 2px solid var(--card-text-color);
+  padding: 0;
+  margin: 10px 20px;
+  padding-bottom: 1rem;
 }
 
 .card-headline {
@@ -740,7 +746,7 @@ form button.submitBtn {
 #spotlight-3 section a,
 .cards section a,
 .grid section a {
-  font-size: 1.2em;
+  font-size: 1.1em;
   color: var(--card-text-color);
   margin: 5px 0;
 }
