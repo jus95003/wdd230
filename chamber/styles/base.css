@@ -656,7 +656,7 @@ form label.top input {
 
 .textarea {
   font-size: 1.1rem;
-  color: var(card-text-color);
+  color: var(--card-text-color);
 }
 
 form label.sbs {
