@@ -33,11 +33,9 @@ document.addEventListener("DOMContentLoaded", function () {
   });
 
 let dateInput = document.querySelector("#date");
-
-let currentDateTime = Date.now();
   
 let joinButton = document.querySelector(".submitBtn");
   
 joinButton.addEventListener('click', () => {
-  dateInput.value = currentDateTime;
+  dateInput.value = Date.now();
 });
