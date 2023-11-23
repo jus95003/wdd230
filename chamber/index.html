@@ -59,6 +59,10 @@
         </ul>
       </nav> 
       <main class="home-area">
+        <div id="banner">
+          <p>Come attend the Chamber of Commerce Meet-and-Greet on Wednesdays at 7:00 PM. We'll have free pie!</p>
+          <span id="close">❌</span>
+        </div>
         <div class="hero">
           <picture class="city-photo">
             <source media="(max-width: 500px)" srcset="images/queen-creek-arizona-welcome-sign-small.webp" alt="Queen Creek Sign" />
@@ -88,6 +92,29 @@
               <p>Sunrise:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span id="sunrise"></span> AM</p>
               <p>Sunset:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span id="sunset"></span> PM</p>
             </div>
+            <table class="forecast">
+              <thead>
+                <tr>
+                  <th colspan="5" scope="colgroup">5-Day Forecast</th>
+                </tr>
+                <tr>
+                  <th scope="col"><span id="dayOne"></span></th>
+                  <th scope="col"><span id="dayTwo"></span></th>
+                  <th scope="col"><span id="dayThree"></span></th>
+                  <th scope="col"><span id="dayFour"></span></th>
+                  <th scope="col"><span id="dayFive"></span></th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td><span id="twenty-four"></span></td>
+                  <td><span id="forty-eight"></span></td>
+                  <td><span id="seventy-two"></span></td>
+                  <td><span id="ninety-six"></span></td>
+                  <td><span id="one-twenty"></span></td>
+                </tr>
+              </tbody>
+            </table>
           </section>
           <section class="card3">
             <h3 class="card-headline">Gold Member Spotlight</h3>
@@ -142,5 +169,7 @@
     <script src="scripts/darkmode.js" defer></script>
     <script src="scripts/weather.js" defer></script>
     <script src="scripts/spotlights.js" defer></script>
+    <script src="scripts/forecast.js" defer></script>
+    <script src="scripts/banner.js" defer></script>
   </body>
 </html>

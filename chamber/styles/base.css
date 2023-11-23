@@ -261,6 +261,29 @@ main {
   background-color: var(--main-bg-color);
   border-left: 5px solid var(--border-color);
   border-right: 5px solid var(--border-color);
+  padding-top: 10px;
+}
+
+#banner {
+	display: none;
+	margin: auto;
+	border: 1px solid var(--outline-color);
+  color: #121212;
+  font-size: 1.5em;
+  font-family: "Merriweather Sans", sans-serif;
+	background-color: lightblue;
+	padding: 10px 1rem;
+	text-align: center;
+	position: relative;
+}
+
+#close {
+	position: absolute;
+	top: 10px;
+	right: 10px;
+	border: none;
+	cursor: pointer;
+	font-size: 1.2rem;
 }
 
 .hero {
@@ -323,7 +346,7 @@ main {
   line-height: 3rem;
   height: 3rem;
   text-align: center;
-  font-size: 1.5em;
+  font-size: 1.6em;
   font-weight: bold;
   color: var(--font-color);
   background-color: var(--secondary-color);
@@ -339,10 +362,6 @@ section p {
 
 .card2 p {
   text-align: center;
-}
-
-.weather-div {
-  padding-bottom: 10px;
 }
 
 .weather {
@@ -463,6 +482,11 @@ table {
   border-collapse: collapse;
 }
 
+.forecast {
+  margin: 1rem auto;
+  border: 1px solid var(--table-border);
+}
+
 caption {
   padding: 10px;
   caption-side: bottom;
@@ -478,15 +502,28 @@ tr:first-child th {
   text-shadow: 1px 1px 0 #000000, -1px 1px 0 #000000, -1px -1px 0 #000000, 1px -1px 0 #000000;
 }
 
+.forecast tr:first-child th {
+  padding: 8px 0;
+  font-size: 1.3rem;
+  background-color: var(--secondary-color);
+  border: 1px solid var(--table-border);
+}
+
 tr th:first-child {
     background-color: var(--secondary-color);
     border: none;
-  }
+}
 
-  .blank {
-    background-color: var(--secondary-color);
-    border: none;
-  }
+.forecast tr th {
+  background-color: var(--border-color);
+  border: 1px solid var(--table-border);
+  padding: 10px;
+}
+
+.blank {
+  background-color: var(--secondary-color);
+  border: none;
+}
 
 th, td {
   padding: 7px 7px;
