@@ -22,3 +22,11 @@ function checkValid() {
 		title.style.color = "#000";
 	}
 }
+
+let dateInput = document.querySelector("#date");
+  
+let joinButton = document.querySelector(".submitBtn");
+  
+joinButton.addEventListener('click', () => {
+  dateInput.value = Date.now();
+});

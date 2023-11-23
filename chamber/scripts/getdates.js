@@ -30,12 +30,4 @@ document.addEventListener("DOMContentLoaded", function () {
     yearSpan2.textContent = currentYear2;
     
     document.getElementById("last-modified2").textContent = customLastMod;
-  });
-
-let dateInput = document.querySelector("#date");
-  
-let joinButton = document.querySelector(".submitBtn");
-  
-joinButton.addEventListener('click', () => {
-  dateInput.value = Date.now();
 });
