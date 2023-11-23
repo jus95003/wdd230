@@ -553,7 +553,6 @@ tbody tr:nth-child(even) {
 .np {
   margin: 3rem auto 3rem auto;
   border: 1px solid var(--form-border);
-  padding: .5rem 2%;
   width: 22rem;
   display: block;
   text-align: center;
@@ -566,6 +565,9 @@ tbody tr:nth-child(even) {
 .np h3 {
   font-size: 1.8rem;
   font-weight: 700;
+  border: 1px solid var(--form-border);
+  margin: 0 auto;
+  padding: 10px;
 }
 
 .gold p,
@@ -574,22 +576,31 @@ tbody tr:nth-child(even) {
 .np p {
   font-size: 1.5rem;
   font-weight: 700;
+  border: 1px solid var(--form-border);
+  color: var(--card-text-color);
+  background-color: var(--zebra-color);
+  padding: 2rem;
+  margin: 0;
 }
 
-.gold {
+.gold h3 {
   background-color: gold;
+  color: black;
 }
 
-.silver {
+.silver h3 {
   background-color: silver;
+  color: black;
 }
 
-.bronze {
+.bronze h3 {
   background-color: #895E1A;
+  color: white;
 }
 
-.np {
+.np h3 {
   background-color: #3E9C35;
+  color: white;
 }
 
 form {
