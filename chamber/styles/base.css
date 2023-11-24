@@ -564,7 +564,7 @@ tbody tr:nth-child(even) {
 .np {
   margin: 3rem auto 3rem auto;
   border: 1px solid var(--form-border);
-  width: 22rem;
+  max-width: 22rem;
   display: block;
   text-align: center;
   color: black;
@@ -615,7 +615,7 @@ tbody tr:nth-child(even) {
 }
 
 form {
-  width: 24rem;
+  max-width: 24rem;
   display: block;
   margin: 1rem auto 0 auto;
 }
@@ -624,7 +624,7 @@ form fieldset {
   margin: 1rem auto 1rem auto;
   border: 1px solid var(--form-border);
   padding: .5rem 2%;
-  width: 22rem;
+  max-width: 22rem;
   display: block;
 }
 
@@ -682,7 +682,7 @@ form button.submitBtn {
   border-radius: 1rem;
   padding: .75rem 1.5rem;
   display: flex;
-  width: 22rem;
+  max-width: 22rem;
   margin: 2rem auto 1rem auto;
   justify-content: center;
 }
