@@ -217,25 +217,20 @@ nav a {
   font-family: "Merriweather Sans", sans-serif;
   padding: 10px;
   text-align: center;
+  color: white;
+  text-shadow: 1px 1px 0 black, -1px 1px 0 black, -1px -1px 0 black, 1px -1px 0 black;
 }
 
 nav a:link {
-  color: var(--font-color);
   text-decoration: none;
-  text-shadow: 1px 1px 0 #000000, -1px 1px 0 #000000, -1px -1px 0 #000000, 1px -1px 0 #000000;
-}
-
-nav a:visited {
-  color: #E5E4E2;
 }
 
 nav a:hover {
   background-color: var(--primary-color);
-  color: var(--font-color);
 }
 
-nav a.current:link {
-  color: gold;
+nav a.current {
+  background-color: #636363;
 }
 
 .show li {
